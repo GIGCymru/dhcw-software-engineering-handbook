@@ -1,2 +1,5 @@
 .vscode
 site/
+node_modules/
+package.json
+package-lock.json
