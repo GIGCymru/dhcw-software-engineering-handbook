@@ -1,0 +1,25 @@
+:root  > * {
+    --md-primary-fg-color:        #325083;
+    --md-primary-fg-color--light: #3f6981;
+    --md-primary-fg-color--dark:  #cdb280;
+    --md-primary-bg-color:               rgb(234, 234, 234);
+    --md-primary-bg-color--light:        rgb(255, 255, 255); 
+    --md-admonition-icon--rfc-terms: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 6h11v2H9zM9 11h11v2H9zM9 16h11v2H9zM3.5 7.5l2.5 2.5L9.5 6l-1.4-1.4-2.1 2.1-1.5-1.5L3.5 7.5zM3.5 12.5l2.5 2.5 4.5-4.5-1.4-1.4-3.1 3.1-1.5-1.5L3.5 12.5zM3.5 17.5l2.5 2.5 4.5-4.5-1.4-1.4-3.1 3.1-1.5-1.5L3.5 17.5z"/></svg>')
+
+  }
+.md-typeset .admonition.rfc-terms,
+.md-typeset details.rfc-terms {
+  border-color: rgb(50, 80, 131);
+}
+.md-typeset .rfc-terms > .admonition-title,
+.md-typeset .rfc-terms > summary {
+  background-color: rgba(50, 80, 131, 0.1);
+}
+.md-typeset .rfc-terms > .admonition-title::before,
+.md-typeset .rfc-terms > summary::before {
+  background-color: rgb(50, 80, 131);
+  -webkit-mask-image: var(--md-admonition-icon--rfc-terms);
+          mask-image: var(--md-admonition-icon--rfc-terms);
+}
+
+  
