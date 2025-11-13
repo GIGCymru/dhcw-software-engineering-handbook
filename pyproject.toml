@@ -1,11 +1,9 @@
 [project]
-name = "architecture-decision-records"
+name = "dhcw-software-engineering-handbook"
 version = "0.1.0"
-description = "MKDocs Material Setup for ADR site"
+description = "DHCW Software Engineering Handbook"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "mkdocs-awesome-nav>=3.1.1",
-    "mkdocs-material>=9.6.9",
-    "mkdocs-table-reader-plugin>=3.1.0",
+    "zensical>=0.0.7",
 ]

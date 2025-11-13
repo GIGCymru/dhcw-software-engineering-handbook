@@ -2,7 +2,7 @@
 # all: do all the typical steps.
 ##
 .PHONY: all
-all: install sync run ;
+all: install sync build run ;
 
 ##
 # help: display this help message.
@@ -28,11 +28,19 @@ sync:
 	@echo "The uv command should now be synchronized and configured."
 
 ##
+# build: build the site from clean.
+##
+.PHONY: build
+build:
+	uv run zensical build --clean
+	@echo "The documentation should now be built"
+
+##
 # run: run the project aspects; this will launch the documentation server.
 ##
 .PHONY: run
-run: 
-	uv run mkdocs serve
+run:
+	uv run zensical serve
 	@echo "The documentation should now be available by browsing http://127.0.0.1:8000/"
 
 ##
@@ -40,8 +48,9 @@ run:
 ##
 .PHONY: deploy
 deploy:
-	uv run mkdocs gh-deploy --force
-	@echo "The documentation should now be available by browsing https://geoff1900.github.io/software-development-standards/"
+	uv run zensical build
+	uv run ghp-import -n -p -f -m "Update documentation" site
+	@echo "The documentation should now be available by browsing https://gigcymru.github.io/dhcw-software-engineering-handbook/"
 
 ##
 # newline: display a newline character so we can print prettier messages.

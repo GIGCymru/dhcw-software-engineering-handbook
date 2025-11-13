@@ -1,6 +1,6 @@
-# Software development handbook
+# Software Engineering Handbook
 
-This site shares Digital Health and Care Wales' (DHCW) software development standards.
+This site shares Digital Health and Care Wales' (DHCW) Software Engineering Handbook.
 Until now, these have only been available to internal staff.
 
 ## Why have a handbook?
