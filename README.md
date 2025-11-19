@@ -1,8 +1,8 @@
-# GIG Cymru NHS Wales - Software development standards
+# GIG Cymru NHS Wales - DHCW Software Engineering Handbook
 
-[![mkdocs](https://github.com/GIG-Cymru-NHS-Wales/software-development-standards/actions/workflows/publish.yml/badge.svg)](https://github.com/GIG-Cymru-NHS-Wales/software-development-standards/actions/workflows/publish.yml)
+[![zensical](https://github.com/GIGCymru/dhcw-software-engineering-handbook/actions/workflows/publish.yml/badge.svg)](https://github.com/GIGCymru/dhcw-software-engineering-handbook/actions/workflows/publish.yml)
 
-The documents in this repository are published to [https://gig-cymru-nhs-wales.github.io/software-development-standards/](https://gig-cymru-nhs-wales.github.io/software-development-standards/).
+The documents in this repository are published to [https://gigcymru.github.io/dhcw-software-engineering-handbook/"](https://gigcymru.github.io/dhcw-software-engineering-handbook/").
 
 ## Introduction
 
@@ -20,7 +20,7 @@ There are several ways to set up your development environment:
 
 The fastest way to start contributing:
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/GIG-Cymru-NHS-Wales/software-development-standards?quickstart=1)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/GIGCymru/dhcw-software-engineering-handbook?quickstart=1)
 
 This provides:
 
@@ -33,7 +33,7 @@ Once you have successfully launched Codespaces you can run the
 development server from the VS Code Terminal:
 
 ```bash
-    uv run mkdocs serve
+    uv run zensical serve
 ```
 
 You will be prompted to **Open in Browser** to view the locally running site.
@@ -48,7 +48,7 @@ is faster on subsequent launches as the environment is then cached.
 
 **Prerequisites:**
 
-* Python 3.11 or higher
+* Python 3.13 or higher
 * [uv](https://github.com/astral-sh/uv) for package/env management
 * Git
 
@@ -57,8 +57,8 @@ is faster on subsequent launches as the environment is then cached.
 Clone the repository:
 
 ```bash
-    git clone https://github.com/GIG-Cymru-NHS-Wales/software-development-standards.git
-    cd software-development-standards
+    git clone https://github.com/GIGCymru/dhcw-software-engineering-handbook.git
+    cd dhcw-software-engineering-handbook
 ```
 
 Install uv (if not already installed):
@@ -76,7 +76,7 @@ Set up environment and dependencies:
 Start the development server:
 
 ```bash
-    uv run mkdocs serve
+    uv run zensical serve
 ```
 
 View the documentation at: ``http://127.0.0.1:8000/``
@@ -94,13 +94,13 @@ If you prefer using containers:
 Build the container:
 
 ```bash
-    podman build --tag mkdocs .
+    podman build --tag zensical .
 ```
 
 Run the development server:
 
 ```bash
-    podman run -p 8000:8000 mkdocs
+    podman run -p 8000:8000 zensical
 ```
 
 View the documentation at: ``http://127.0.0.1:8000/``
@@ -121,7 +121,7 @@ View the documentation at: ``http://127.0.0.1:8000/``
 
 ## Documentation
 
-Our documentation is built using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
+Our documentation is built using [Zensical](https://zensical.org/), a modern static site generator built by the creators of Material for MkDocs.
 
 ## Contributing
 
