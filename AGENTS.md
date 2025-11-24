@@ -134,11 +134,22 @@ Read file(s) → Make edits → Update navigation (if needed) → Test → Commi
 
 **When editing:**
 
-- Use GitHub-flavored markdown
+- Use [Python Markdown](https://zensical.org/docs/authoring/markdown/) with Zensical extensions
 - Follow existing heading hierarchy
 - Maintain consistent formatting
 - Use relative paths for internal links: `[Link text](../section/page.md)`
 - Place images in `doc/assets/` and reference: `![Alt text](../assets/image.png)`
+
+**Key Markdown Extensions Available:**
+
+- **[Admonitions](https://zensical.org/docs/authoring/admonitions/)** - Callout boxes for notes, warnings, tips, etc.
+- **[Code Blocks](https://zensical.org/docs/authoring/code-blocks/)** - Syntax highlighting with line numbers and annotations
+- **Footnotes** - Reference-style footnotes
+- **Tables** - Standard markdown tables
+- **Tabbed content** - Multi-tab content blocks
+- **Mermaid diagrams** - Flowcharts, sequence diagrams, etc.
+
+See `zensical.toml` (lines 239-258) for the complete list of enabled markdown extensions.
 
 ### Adding New Pages
 
@@ -309,7 +320,7 @@ Check `.github/workflows/` for pipeline configuration.
 
 ### Adding Code Examples
 
-**Syntax-highlighted code blocks:**
+**Syntax-highlighted code blocks** ([Zensical Code Blocks](https://zensical.org/docs/authoring/code-blocks/)):
 
 ````markdown
 ```python
@@ -320,6 +331,30 @@ def calculate_risk_score(patient_data):
 ````
 
 **Supported languages:** python, typescript, javascript, sql, bash, yaml, toml, json, csharp, xml, and more.
+
+**Code blocks support:**
+- Syntax highlighting
+- Line numbers (configurable)
+- Line highlighting
+- Annotations
+- Copy button
+
+### Using Admonitions
+
+**Admonitions** ([Zensical Admonitions](https://zensical.org/docs/authoring/admonitions/)) create callout boxes for important information:
+
+```markdown
+!!! note "Optional Custom Title"
+    This is a note admonition with custom title.
+
+!!! warning
+    This is a warning without custom title.
+
+!!! tip "NHS Wales Best Practice"
+    Always validate patient identifiers using the NHS Wales standard format.
+```
+
+**Available types:** note, abstract, info, tip, success, question, warning, failure, danger, bug, example, quote
 
 ### Adding Technical Terms to Spell Checker
 
