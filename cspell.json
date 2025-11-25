@@ -21,14 +21,16 @@
         "kickstarting",
         "Knative",
         "metamodel",
-        "mkdocs",
         "Mkdoc",
+        "mkdocs",
         "NCSC",
         "Pulumi",
-        "NCSC",
         "shadcn",
-        "UKNCSC"
+        "UKNCSC",
+        "Zensical"
     ],
-    "ignoreWords": [],
+    "ignoreWords": [
+        "tlsv"
+    ],
     "import": []
 }
