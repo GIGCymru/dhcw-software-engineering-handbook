@@ -1,7 +1,13 @@
 {
     "version": "0.2",
     "language": "en,en-GB",
-    "ignorePaths": [],
+    "ignorePaths": [
+        ".*",
+        "Dockerfile",
+        "zensical.toml",
+        "justfile",
+        "cspell.json"
+    ],
     "dictionaryDefinitions": [],
     "dictionaries": [],
     "words": [

@@ -83,3 +83,14 @@ deploy:
     @echo "✅ Deployment complete!"
     @echo "🌐 Documentation available at: {{ prod_url }}"
     @echo "💡 Note: It may take a few minutes for changes to appear"
+
+
+# ============================================================================
+# Quality Assurance
+# ============================================================================
+
+# Run markdown linter on all documentation files (requires npm install)
+lint:
+    @echo "🔍 Linting markdown files with markdownlint-cli2..."
+    npx markdownlint-cli2 "doc/**/*.md" --config .markdownlint-cli2.jsonc
+    @echo "✅ Markdown linting complete - no issues found!"
