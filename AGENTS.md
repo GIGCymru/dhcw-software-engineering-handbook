@@ -149,7 +149,7 @@ Read file(s) → Make edits → Update navigation (if needed) → Test → Commi
 - **Tabbed content** - Multi-tab content blocks
 - **Mermaid diagrams** - Flowcharts, sequence diagrams, etc.
 
-See `zensical.toml` (lines 239-258) for the complete list of enabled markdown extensions.
+See the `markdown_extensions` section in `zensical.toml` for the complete list of enabled extensions.
 
 ### Adding New Pages
 
@@ -168,13 +168,14 @@ See `zensical.toml` (lines 239-258) for the complete list of enabled markdown ex
 
 ### Modifying Navigation
 
-The `zensical.toml` file controls:
+The `zensical.toml` file is organized into sections:
 
-- Site metadata (lines 1-9)
-- **Navigation structure** (lines 12-206) - Primary area for updates
-- Theme configuration (lines 208-230)
-- Markdown extensions (lines 239-258)
-- Plugins (line 261)
+- **`[project]`** - Site metadata (name, description, URLs, navigation)
+- **`nav`** - Navigation structure (primary area for updates when adding/removing pages)
+- **`[project.theme]`** - Theme configuration (logo, features, colors, fonts)
+- **`markdown_extensions`** - Enabled markdown extensions
+- **`[project.pymdownx]`** - Python Markdown extension configurations
+- **`plugins`** - Enabled plugins (like search)
 
 ## Git Workflow
 
@@ -341,20 +342,27 @@ def calculate_risk_score(patient_data):
 
 ### Using Admonitions
 
-**Admonitions** ([Zensical Admonitions](https://zensical.org/docs/authoring/admonitions/)) create callout boxes for important information:
+**Admonitions** ([Zensical Admonitions](https://zensical.org/docs/authoring/admonitions/)) create callout boxes for important information.
+
+**Standard admonitions used in this handbook:**
 
 ```markdown
-!!! note "Optional Custom Title"
-    This is a note admonition with custom title.
+!!! tip "Practical tips"
+    Use this for practical tips and recommendations
 
-!!! warning
-    This is a warning without custom title.
+!!! example "Examples of good practice"
+    Use this for examples of good practice
 
-!!! tip "NHS Wales Best Practice"
-    Always validate patient identifiers using the NHS Wales standard format.
+!!! warning "Practices to avoid"
+    Use this for practices to avoid
+
+!!! info "Further reading and information"
+    Use this for links to further guides, information and work instructions
 ```
 
-**Available types:** note, abstract, info, tip, success, question, warning, failure, danger, bug, example, quote
+**Other available types:** note, abstract, success, question, failure, danger, bug, quote
+
+See `doc/software-development-handbook/introduction.md` for live examples of these admonitions in use.
 
 ### Adding Technical Terms to Spell Checker
 
@@ -495,12 +503,9 @@ When your changes are complete and pushed:
    - What sections/pages were affected
    - Any testing performed
 
-## Project Contacts & Resources
+## Project Resources
 
-**For questions or support:**
-Joel Henderson - <joel.henderson@wales.nhs.uk>
-
-**Project resources:**
+**Documentation and tools:**
 
 - [Published Handbook](https://gigcymru.github.io/dhcw-software-engineering-handbook/)
 - [GitHub Repository](https://github.com/GIGCymru/dhcw-software-engineering-handbook/)
