@@ -33,10 +33,13 @@ Once you have successfully launched Codespaces you can run the
 development server from the VS Code Terminal:
 
 ```bash
-    uv run zensical serve
+    just run
 ```
 
 You will be prompted to **Open in Browser** to view the locally running site.
+
+All dependencies are automatically installed during container creation. Use `just --list`
+to discover all available commands.
 
 See the [Quickstart Guide](http://docs.github.com/en/codespaces/quickstart) for
 more information.
@@ -105,16 +108,36 @@ Run the development server:
 
 View the documentation at: ``http://127.0.0.1:8000/``
 
-### 4. Make-based Workflow
+### 4. Just-based Workflow
 
-For those familiar with Make:
+For those who prefer command runners, this project uses [Just](https://github.com/casey/just):
+
+**Installation:**
 
 ```bash
-    # See available commands
-    make help
+    # macOS
+    brew install just
+
+    # Linux
+    curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -- --to /usr/local/bin
+
+    # Windows (via cargo)
+    cargo install just
+
+    # See https://github.com/casey/just#installation for more options
+```
+
+**Usage:**
+
+```bash
+    # See all available commands
+    just --list
 
     # Full build and serve
-    make
+    just
+
+    # Quick start development server
+    just run
 ```
 
 View the documentation at: ``http://127.0.0.1:8000/``

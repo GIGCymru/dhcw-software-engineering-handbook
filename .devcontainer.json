@@ -4,7 +4,8 @@
     "name": "Software Development Standards Python Dev Container",
     "image": "mcr.microsoft.com/devcontainers/python:3.13-bookworm",
     "features": {
-        "ghcr.io/va-h/devcontainers-features/uv:1": {}
+        "ghcr.io/va-h/devcontainers-features/uv:1": {},
+        "ghcr.io/guiyomh/features/just:0": {}
     },
     
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
