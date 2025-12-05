@@ -92,7 +92,7 @@ dhcw-software-engineering-handbook/
 3. **Verify navigation changes** - When adding/removing pages, update `zensical.toml`
 4. **Follow existing patterns** - Match formatting, structure, and style of existing content
 5. **Test locally if possible** - Start dev server to verify changes render correctly
-6. **NEVER commit PII or secrets to source control**
+6. **Security & PHI** - NEVER commit patient data (PHI) or any secrets/credentials. If you encounter files containing PHI, stop and raise an issue or contact maintainers — do NOT attempt to de-identify or remove PHI in a PR. Also never add API keys, access tokens, passwords, or other secrets to the repo.
 
 ### Standard Change Workflow
 
@@ -206,7 +206,7 @@ Add Python coding standards section
 - [ ] Run markdownlint via `just lint` and fix all issues
 - [ ] Run cspell via `just spell` and fix all issues
 - [ ] Check spelling, especially technical terms
-- [ ] Check for secrets or PII (DO NOT COMMIT THEM TO GIT)
+- [ ] Check for secrets/credentials or PHI (DO NOT COMMIT THEM TO GIT)
 
 ### Linting & Validation
 
@@ -378,7 +378,6 @@ If using NHS Wales or healthcare-specific terms:
 2. **Minimize File Creation**
    - Prefer editing existing files over creating new ones
    - Only create files when explicitly required
-   - Never create README files unless specifically requested
 
 3. **Follow Existing Patterns**
    - Match heading styles, formatting, and structure
