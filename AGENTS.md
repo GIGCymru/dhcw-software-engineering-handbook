@@ -4,25 +4,6 @@ This document provides comprehensive instructions for AI agents (including Claud
 
 > **⚠️ CRITICAL CONTEXT:** This is NHS Wales healthcare software engineering guidance. All changes must maintain the highest standards of accuracy, clarity, and professionalism. Healthcare guidance errors can have serious consequences.
 
-## Quick Reference
-
-**Essential Commands:**
-
-```bash
-uv run zensical serve         # Start dev server (http://127.0.0.1:8000/)
-uv run zensical build --clean # Clean build
-just                          # Full setup + build + serve
-just --list                   # View all available commands
-```
-
-**Key Files:**
-
-- `zensical.toml` - Site configuration and navigation structure
-- `justfile` - Command automation and workflows
-- `doc/` - All markdown content (edit here)
-- `.markdownlint.json` - Markdown linting rules
-- `cspell.json` - Spell checker dictionary
-
 ## Project Overview
 
 **Project:** DHCW Software Engineering Handbook
@@ -40,9 +21,9 @@ Comprehensive handbook covering:
 - Solution organization guidelines
 - Coding standards (general, T-SQL)
 - RESTful API standards (including FHIR)
-- Azure DevOps handbook
-- Testing methodologies (including lost update testing)
-- Security practices (OWASP Top 10)
+- Using Azure DevOps
+- Testing methodologies
+- Security practices (e.g. OWASP Top 10)
 - Accessibility standards
 
 ## Technology Stack
@@ -57,6 +38,7 @@ Comprehensive handbook covering:
 | Linting | markdownlint + cspell | Quality assurance |
 | CI/CD | GitHub Actions | Automated build and deployment |
 | Hosting | GitHub Pages | Static site hosting |
+| Command Runner | [Just](https://github.com/casey/just) | run project-specific commands. |
 
 ## Development Environment Setup
 
@@ -64,25 +46,17 @@ Comprehensive handbook covering:
 
 The repository includes multiple setup options:
 
-1. **GitHub Codespaces** (Recommended) - Pre-configured environment via `.devcontainer.json`
-2. **Local Development** - Requires Python 3.13+, uv, git
+1. **GitHub Codespaces** - Pre-configured environment via `.devcontainer.json`
+2. **Local Development** - Requires Python 3.13+, uv, git, just, npm
 3. **Container-based** - Using Podman/Docker with provided Dockerfile
-4. **Just-based** - Using Just command runner for automated workflows
 
 ### Quick Start
 
 ```bash
-uv sync                    # Install dependencies
-uv run zensical serve      # Start dev server on http://127.0.0.1:8000/
-```
-
-**Or use Just for automation:**
-
-```bash
-just --list                # See all available commands
-just run                   # Start dev server (recommended)
-just build                 # Clean build
-just                       # Full workflow: install, sync, build, serve
+just --list    # View all available commands
+just           # Full setup + build + serve
+just build     # Perform a build of the documentation
+just run       # Start the dev server (http://127.0.0.1:8000/)
 ```
 
 The development server auto-reloads on file changes.
@@ -93,28 +67,20 @@ The development server auto-reloads on file changes.
 dhcw-software-engineering-handbook/
 ├── doc/                          # All documentation content
 │   ├── index.md                  # Homepage
-│   ├── software-development-handbook/
-│   ├── using-source-control/
-│   ├── organising-your-solution/
-│   ├── general-coding-standards/
-│   ├── t-sql-coding-standard/
-│   ├── restful-api-standards/
-│   ├── azure-devops-handbook/
-│   ├── software-subscriptions/
-│   ├── test-summary-report/
-│   ├── testing-lost-updates/
-│   ├── coding-standard-template/
+│   ├── <subfolders>/             # Major handbook sections under subfolders
 │   ├── assets/                   # Images, logos, favicons
 │   ├── overrides/                # Theme customizations
 │   └── stylesheets/              # Custom CSS
 ├── .github/                      # GitHub Actions workflows
+├── .devcontainer.json            # Devcontainer configuration
+├── .markdownlint-cli2.jsonc      # Markdown Linting rules configuration
+├── cspell.json                   # Spell checker dictionary
+├── Dockerfile                    # Docker image settings
 ├── justfile                      # Command automation and workflows
-├── zensical.toml                 # Main configuration file
+├── package.json                  # NPM project configuration
 ├── pyproject.toml                # Python project configuration
-├── uv.lock                       # Dependency lock file
 ├── README.md                     # Project README
-├── CONTRIBUTING.md               # Contribution guidelines
-└── CODE_OF_CONDUCT.md           # Code of conduct
+├── zensical.toml                 # Main configuration file
 ```
 
 ## Workflow for AI Agents
@@ -160,20 +126,20 @@ Read file(s) → Make edits → Update navigation (if needed) → Test → Commi
 - **Tabbed content** - Multi-tab content blocks
 - **Mermaid diagrams** - Flowcharts, sequence diagrams, etc.
 
-See the `markdown_extensions` section in `zensical.toml` for the complete list of enabled extensions.
+See the `[project.markdown_extensions.<title>]` sections in `zensical.toml` for the complete list of enabled extensions.
 
 ### Adding New Pages
 
 1. **Create markdown file** in appropriate `/doc` subdirectory
 2. **Update `zensical.toml` navigation:**
 
-   ```toml
-   nav = [
-     {"Section Name" = [
-       {"New Page Title" = "section-name/new-page.md"},
-     ]},
-   ]
-   ```
+```toml
+nav = [
+   {"Section Name" = [
+      {"New Page Title" = "section-name/new-page.md"},
+   ]},
+]
+```
 
 3. **Follow naming conventions:** lowercase, hyphens for spaces (e.g., `my-new-page.md`)
 
@@ -183,10 +149,8 @@ The `zensical.toml` file is organized into sections:
 
 - **`[project]`** - Site metadata (name, description, URLs, navigation)
 - **`nav`** - Navigation structure (primary area for updates when adding/removing pages)
+- **`[project.markdown_extensions.<..>]`** - Markdown extensions and their settings
 - **`[project.theme]`** - Theme configuration (logo, features, colors, fonts)
-- **`markdown_extensions`** - Enabled markdown extensions
-- **`[project.pymdownx]`** - Python Markdown extension configurations
-- **`plugins`** - Enabled plugins (like search)
 
 ## Git Workflow
 
@@ -238,16 +202,17 @@ Add Python coding standards section
 - [ ] Use correct relative paths for links and images
 - [ ] Update `zensical.toml` navigation if adding/removing pages
 - [ ] Verify markdown syntax is correct
+- [ ] Run markdownlint via `just lint` and fix all issues
 - [ ] Check spelling, especially technical terms
 
 ### Linting & Validation
 
 The project uses automated quality checks:
 
-**Markdown Linting** (`.markdownlint.json`):
+**Markdown Linting** (`.markdownlint-cli2.jsonc`)
 
-- MD013: Line length limit disabled (healthcare docs often have long lines)
-- MD046: Code block style flexibility enabled
+- Defines deviations from default markdown linting rules
+- Lint all changed documents using `just lint`
 
 **Spell Checking** (`cspell.json`):
 
@@ -260,7 +225,7 @@ The project uses automated quality checks:
 **Development server test:**
 
 ```bash
-uv run zensical serve
+just run
 # Visit http://127.0.0.1:8000/
 # Verify: pages load, navigation works, links resolve, images display
 ```
@@ -268,15 +233,8 @@ uv run zensical serve
 **Build test:**
 
 ```bash
-uv run zensical build --clean    # Clean build
+just build
 # Check terminal output for errors or warnings
-```
-
-**Full test using Just:**
-
-```bash
-just build    # Clean build only
-just          # Full setup, build, and serve
 ```
 
 ### CI/CD Pipeline
@@ -389,7 +347,7 @@ If using NHS Wales or healthcare-specific terms:
 
 | Problem | Solution |
 |---------|----------|
-| Module not found | Run `uv sync` to reinstall dependencies |
+| Module not found | Run `just install` to reinstall dependencies |
 | Build fails | Check `zensical.toml` syntax; verify all referenced files exist |
 | Page not appearing | Verify navigation entry in `zensical.toml` and file path match |
 | Broken links | Check relative paths; ensure target files exist |
@@ -514,22 +472,6 @@ When your changes are complete and pushed:
    - What sections/pages were affected
    - Any testing performed
 
-## Project Resources
-
-**Documentation and tools:**
-
-- [Published Handbook](https://gigcymru.github.io/dhcw-software-engineering-handbook/)
-- [GitHub Repository](https://github.com/GIGCymru/dhcw-software-engineering-handbook/)
-- [Zensical Documentation](https://zensical.org/)
-- [uv Package Manager](https://github.com/astral-sh/uv)
-
-**Repository documentation:**
-
-- [CONTRIBUTING.md](CONTRIBUTING.md) - Contribution guidelines
-- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) - Community standards
-- [README.md](README.md) - Project overview and setup
-- `.github/workflows/` - CI/CD pipeline configuration
-
 ## Summary for AI Agents
 
 **Key Takeaways:**
@@ -544,7 +486,3 @@ When your changes are complete and pushed:
 8. 🚫 **Avoid over-engineering** - Make only requested changes, keep it simple
 9. 🔍 **British English** - Follow NHS Wales language standards
 10. 🤝 **Respect the process** - This documentation helps real healthcare software developers
-
----
-
-**Remember:** Every change to this handbook potentially affects NHS Wales software development practices. Maintain the highest standards of accuracy, clarity, and professionalism in all contributions.
