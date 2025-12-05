@@ -60,11 +60,11 @@ Store for SSL verification:
 fatal: unable to access 'https://<your-repo-url\>': SSL certificate
 problem: unable to get local issuer certificate
 
-fatal: unable to access 'https://<your-repo-url\>': schannel
+fatal: unable to access 'https://<your-repo-url\>: schannel`
 CertGetCertificateChain trust error CERT_TRUST_IS_PARTIAL_CHAIN
 
 To fix them, run the following command in Git Bash. Alternatively, if
 you're using Visual Studio set the *cryptographic network provider* to
-*schannel* in the Git settings:
+*`schannel`* in the Git settings:
 
 `git config --global http.sslBackend schannel`

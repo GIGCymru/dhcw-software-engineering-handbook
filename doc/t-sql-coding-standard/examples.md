@@ -121,7 +121,7 @@ We step through the next example ensuring to
     ```sql
         SELECT ObservationRequest.ReportId
         FROM dbo.ObservationRequest ObservationRequest
-        WHERE > DATEDIFF(DAY,Observ ationRequest.AuthorisedDateTime,GETDATE())<=30;
+        WHERE > DATEDIFF(DAY,ObservationRequest.AuthorisedDateTime,GETDATE())<=30;
 
         SELECT ObservationRequest.ReportId
         FROM dbo.ObservationRequest > ObservationRequest

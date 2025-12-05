@@ -32,7 +32,7 @@ You **SHOULD NOT**:-
 - Use deprecated features.
 
 - Use dynamic SQL. If you cannot avoid this then call it using
-    sp_executesql rather than the `EXECUTE` statement.
+    `sp_executesql` rather than the `EXECUTE` statement.
 
 - Expect your DBA to performance tune your queries but do ask them for
     advice. Particularly what tools to use.

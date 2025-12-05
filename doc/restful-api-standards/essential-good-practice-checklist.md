@@ -2,7 +2,7 @@
 
 | **No.** | **Checklist Item** |  | **Section Heading** | **Exceptions** |
 | --- | --- | --- | --- | --- |
-| 1 | APIs conform to FHIR R4. | ☐ | FHIR (Fast Healthcare Interoperability Standards) | Suitable FHIR R4 p rofiles may be unava ilable. |
+| 1 | APIs conform to FHIR R4. | ☐ | FHIR (Fast Healthcare Interoperability Standards) | Suitable FHIR R4 profiles may be unavailable. |
 | 2 | You have identified the resource data type. | ☐ | Data Classification |  |
 | 3 | You have an OpenAPI specification kept in source control. | ☐ | OpenAPI Specification |  |
 | 4 | You structure API endpoints for predictability. | ☐ | URL Structure |  |
