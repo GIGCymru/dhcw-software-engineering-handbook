@@ -92,6 +92,7 @@ dhcw-software-engineering-handbook/
 3. **Verify navigation changes** - When adding/removing pages, update `zensical.toml`
 4. **Follow existing patterns** - Match formatting, structure, and style of existing content
 5. **Test locally if possible** - Start dev server to verify changes render correctly
+6. **NEVER commit PII or secrets to source control**
 
 ### Standard Change Workflow
 
@@ -204,6 +205,7 @@ Add Python coding standards section
 - [ ] Verify markdown syntax is correct
 - [ ] Run markdownlint via `just lint` and fix all issues
 - [ ] Check spelling, especially technical terms
+- [ ] Check for secrets or PII (DO NOT COMMIT THEM TO GIT)
 
 ### Linting & Validation
 
