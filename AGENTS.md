@@ -11,13 +11,14 @@ This document provides comprehensive instructions for AI agents (including Claud
 ```bash
 uv run zensical serve         # Start dev server (http://127.0.0.1:8000/)
 uv run zensical build --clean # Clean build
-make                          # Full setup + build + serve
-make help                     # View all available commands
+just                          # Full setup + build + serve
+just --list                   # View all available commands
 ```
 
 **Key Files:**
 
 - `zensical.toml` - Site configuration and navigation structure
+- `justfile` - Command automation and workflows
 - `doc/` - All markdown content (edit here)
 - `.markdownlint.json` - Markdown linting rules
 - `cspell.json` - Spell checker dictionary
@@ -66,13 +67,22 @@ The repository includes multiple setup options:
 1. **GitHub Codespaces** (Recommended) - Pre-configured environment via `.devcontainer.json`
 2. **Local Development** - Requires Python 3.13+, uv, git
 3. **Container-based** - Using Podman/Docker with provided Dockerfile
-4. **Make-based** - Using Makefile for automated setup
+4. **Just-based** - Using Just command runner for automated workflows
 
 ### Quick Start
 
 ```bash
 uv sync                    # Install dependencies
 uv run zensical serve      # Start dev server on http://127.0.0.1:8000/
+```
+
+**Or use Just for automation:**
+
+```bash
+just --list                # See all available commands
+just run                   # Start dev server (recommended)
+just build                 # Clean build
+just                       # Full workflow: install, sync, build, serve
 ```
 
 The development server auto-reloads on file changes.
@@ -98,6 +108,7 @@ dhcw-software-engineering-handbook/
 │   ├── overrides/                # Theme customizations
 │   └── stylesheets/              # Custom CSS
 ├── .github/                      # GitHub Actions workflows
+├── justfile                      # Command automation and workflows
 ├── zensical.toml                 # Main configuration file
 ├── pyproject.toml                # Python project configuration
 ├── uv.lock                       # Dependency lock file
@@ -261,11 +272,11 @@ uv run zensical build --clean    # Clean build
 # Check terminal output for errors or warnings
 ```
 
-**Full test using Make:**
+**Full test using Just:**
 
 ```bash
-make build    # Clean build only
-make          # Full setup, build, and serve
+just build    # Clean build only
+just          # Full setup, build, and serve
 ```
 
 ### CI/CD Pipeline

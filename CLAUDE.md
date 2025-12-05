@@ -28,7 +28,8 @@ The `AGENTS.md` file contains:
 2. **Start development server:**
 
    ```bash
-   uv run zensical serve
+   just run
+   # Or: uv run zensical serve
    ```
 
 3. **Make your changes:**
