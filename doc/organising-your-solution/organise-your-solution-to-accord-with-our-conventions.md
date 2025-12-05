@@ -62,7 +62,7 @@ An Example .Net Solution which follows our conventions:
 
     [.NET Core Opinion #2 - Managing a Repository Structure (odetocode .com)](https://odetocode.com/blogs/scott/archive/2018/09/06/net-core-opinion-2-ndash-managing-a-repository-structure.aspx)
 
-    [.NET Core Opinion #3 - Other Folders to Include in the Source Repository (od etocode.com)](https://odetocode.com/blogs/scott/archive/2018/09/13/net-core-opinion-3-ndash-other-folders-to-include.aspx)
+    [.NET Core Opinion #3 - Other Folders to Include in the Source Repository (odetocode.com)](https://odetocode.com/blogs/scott/archive/2018/09/13/net-core-opinion-3-ndash-other-folders-to-include.aspx)
 
     [Create .NET Projects Using Standard Practices \| Toptal](https://www.toptal.com/dot-net/bootstrap-and-create-dot-net-projects)
 

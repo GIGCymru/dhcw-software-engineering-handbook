@@ -94,3 +94,9 @@ lint:
     @echo "🔍 Linting markdown files with markdownlint-cli2..."
     npx markdownlint-cli2 "doc/**/*.md" --config .markdownlint-cli2.jsonc
     @echo "✅ Markdown linting complete - no issues found!"
+
+# Run cspell on all documentation files (requires npm install)
+spell:
+    @echo "🔍 Spell checking files with cspell..."
+    npx cspell-cli "doc/**/*.md"
+    @echo "✅ Spell checking complete - no issues found!"

@@ -204,6 +204,7 @@ Add Python coding standards section
 - [ ] Update `zensical.toml` navigation if adding/removing pages
 - [ ] Verify markdown syntax is correct
 - [ ] Run markdownlint via `just lint` and fix all issues
+- [ ] Run cspell via `just spell` and fix all issues
 - [ ] Check spelling, especially technical terms
 - [ ] Check for secrets or PII (DO NOT COMMIT THEM TO GIT)
 
@@ -218,9 +219,10 @@ The project uses automated quality checks:
 
 **Spell Checking** (`cspell.json`):
 
-- Custom dictionary includes healthcare/tech terms: DHCW, NCSC, Mkdocs, Pulumi, etc.
+- Custom dictionary includes healthcare/tech terms.
 - Language: British English (en-GB)
-- Add new technical terms to the `words` array if needed
+- Add new terms to the `words` or `ignoreWords` arrays as needed
+- Check spelling in all docs with `just spell`
 
 ### Local Testing
 

@@ -72,8 +72,8 @@ than YAML.
 
 | **COMPONENT** | **NAMING CONVENTION** | **example** |
 | --- | --- | --- |
-| **pipeline** | <repository-name\>-<purpose\> (*purpose* = pr, ci, cd) | wis-api-pr welshpas-web-ci wcp -integration-services-cd |
-| **Pipeline Run** **(YAML name)** | \$ (Build.DefinitionName)\_ \$(SourceBranchName)\_ \$( Date:yyyyMMdd).\$(Rev:r) | welshpas-web-ci_main_20241203.1 |
+| **pipeline** | <repository-name\>-<purpose\> (*purpose* = pr, ci, cd) | `wis-api-pr welshpas-web-ci wcp -integration-services-cd` |
+| **Pipeline Run** **(YAML name)** | \$ (Build.DefinitionName)\_ \$(SourceBranchName)\_ \$( Date:yyyyMMdd).\$(Rev:r) | `welshpas-web-ci_main_20241203.1` |
 | **STAGE** | PascalCase, descriptive | Build, Test, DeployToProd |
 | **JOB** | PascalCase, descriptive | RunUnitTests, BuildDockerImage, DeployToProd |
 | **ENVIRONMENT** | <DevTest \| UAT \| PROD\> | DevTest, UAT, Prod |
