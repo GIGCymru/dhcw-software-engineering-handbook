@@ -87,7 +87,7 @@
     `#!csharp bool IsTrue;`
 
 !!! danger "Examples of practices to avoid"
-    `#!csharp bool condtionChecker;`
+    `#!csharp bool conditionChecker;`
 
 !!! example "Examples of good practice"
     `#!csharp bool IsOpen;`

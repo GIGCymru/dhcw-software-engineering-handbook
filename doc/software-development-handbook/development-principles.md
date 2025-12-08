@@ -1,6 +1,6 @@
 # Development principles
 
-## Ahdere to a solutions architecture
+## Adhere to a solutions architecture
 
 Software **SHOULD** align with our API-first and Cloud-first strategies.
 Follow a Solutions Architecture Design, reviewed by the Technical Design

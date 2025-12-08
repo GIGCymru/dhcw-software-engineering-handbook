@@ -54,7 +54,7 @@ managed vary. Speak to the Software Development Manager for help.
 | **SPARX SYSTEMS PROLABORATE** |
 | **Atlassian TRELLO** |
 | **UPSCENE DATABASE WORKBENCH** |
-| **Microsft VISIO** |
+| **Microsoft VISIO** |
 
 !!! tip "Practical tips"
     It is **RECOMMENDED** you check plans for ongoing software assurance when requesting a subscription.

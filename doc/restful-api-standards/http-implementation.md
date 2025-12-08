@@ -9,7 +9,7 @@ practice, but refer to official specs when needed:
 
     [API design best practices - Conform to HTTP semantics \| Microsoft Learn](https://learn.microsoft.com/en-gb/azure/architecture/best-practices/api-design#conform-to-http-semantics)
 
-## Hypermedia (hateos)
+## Hypermedia (HATEOAS)
 
 A RESTful API **MUST** implement *Hypermedia as the Engine of
 Application State (HATEOAS)* to be classified as *Richardson Level 3*.
@@ -99,7 +99,7 @@ APIs **MAY** support additional request headers:
 | `X-Audit-Device` | FHIR identifier for the client device (base64, max 8KB). |
 | `X-Au dit-Organisation` | FHIR identifier for the client organisation (base64, max 8KB). |
 | `X-Audit-User` | FHIR identifier for the authenticated user (base64, max 8KB). |
-| `X-Au thenticated_User` | Identifies the client system for auditing. |
+| `X-Authenticated_User` | Identifies the client system for auditing. |
 | `Cache-Control` | Controls caching (e.g. *`no-store`*). |
 | `Connection` | Manages connection behaviour (e.g. *`keep-alive`*). |
 | `If-Match`, `If-None-Match` | Used for optimistic concurrency control with resource updates. |

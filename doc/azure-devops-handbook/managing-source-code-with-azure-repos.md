@@ -84,7 +84,7 @@ branching and release:
     met before merging.
 
 - **Set Coverage Thresholds:** Define differential (diff) thresholds
-    in *azurepipelines-coverage.yml* or *.runsettings* to match your
+    in *`azurepipelines-coverage.yml`* or *`.runsettings`* to match your
     *Definition of Done*.
 
 - **Address Insufficient Coverage:** Use the "*Require comments

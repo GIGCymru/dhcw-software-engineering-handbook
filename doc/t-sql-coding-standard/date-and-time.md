@@ -28,7 +28,7 @@ You **SHOULD NOT**:-
 
 - Use the *+* or *--* operators on date/time fields; It is unclear
     what unit is being applied. For example, it's not clear that
-    `GETDATE()+1` will return this time tomorrow. Newer datatypes such as
+    `GETDATE()+1` will return this time tomorrow. Newer data types such as
     `DATE`, `DATETIME2` and `DATETIMEOFFSET` throw errors when used in this
     way.
 

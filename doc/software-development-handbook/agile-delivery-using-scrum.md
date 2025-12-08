@@ -18,7 +18,7 @@ Manage each *Sprint* with these *Scrum* events:
 !!! note "**Review**"
     - Assess what has been achieved and gather feedback.
 
-!!! note "**Ret rospective**"
+!!! note "**Retrospective**"
     - Reflect on the *Sprint* discuss areas for improvement.
 
 !!! tip "Practical tips"

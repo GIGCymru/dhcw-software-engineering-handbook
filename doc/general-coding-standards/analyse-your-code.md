@@ -27,7 +27,7 @@ Calculate code metrics for each project in your solution and address any
 that exceed acceptable limits. The table below shows **RECOMMENDED**
 levels for each metric.
 
-|  | **Maintainability Index** | **Cyclomatic Complexity** | **Depth of Imheritance** | **Class Coupling** | **Lines of Executable code** |
+|  | **Maintainability Index** | **Cyclomatic Complexity** | **Depth of Inheritance** | **Class Coupling** | **Lines of Executable code** |
 | --- | --- | --- | --- | --- | --- |
 |  | 20 - 100 | < 7 | < 5 | < 9 | < 40 |
 
