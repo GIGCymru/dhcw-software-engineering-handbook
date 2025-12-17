@@ -32,6 +32,7 @@ nav = [
     {"Commit changes early and often" = "using-source-control/commit-changes-early-and-often.md"},
     {"Write clear commit messages" = "using-source-control/write-clear-commit-messages.md"},
     {"Review your code" = "using-source-control/review-your-code.md"},
+    {"Squash commits before merging" = "using-source-control/squash-commits-before-merging.md"},
     {"Follow a branching strategy" = "using-source-control/follow-a-branching-strategy.md"},
     {"Adopt trunk based development and continuous integration" = "using-source-control/adopt-trunk-based-development-and-continuous-integration.md"},
     {"Implement a versioning strategy" = "using-source-control/implement-a-versioning-strategy.md"},
