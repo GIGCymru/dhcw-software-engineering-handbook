@@ -35,18 +35,24 @@ jobs:
 
       - name: Install uv package manager
         run: |
-          curl -LsSf https://astral.sh/uv/install.sh | sh
-          echo "$HOME/.local/bin" >> $GITHUB_PATH
+          tmpdir="$(mktemp -d)"
+          curl -LsSf https://astral.sh/uv/install.sh -o "$tmpdir/install-uv.sh"
+          sh "$tmpdir/install-uv.sh"
+          rm -rf "$tmpdir"
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
 
       - name: Install Just command runner
         run: |
-          curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -- --to ~/.local/bin
-          echo "$HOME/.local/bin" >> $GITHUB_PATH
+          tmpdir="$(mktemp -d)"
+          curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh -o "$tmpdir/install-just.sh"
+          bash "$tmpdir/install-just.sh" --to "$HOME/.local/bin"
+          rm -rf "$tmpdir"
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 'lts/*'
+          node-version: '20.x'
           cache: 'npm'
 
       - name: Install npm dependencies
