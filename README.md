@@ -76,6 +76,12 @@ Set up environment and dependencies:
     uv sync
 ```
 
+Install the npm dependencies that provide the CLI tools used for spell checking and markdown linting:
+
+```bash
+    npm install
+```
+
 Start the development server:
 
 ```bash
