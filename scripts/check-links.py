@@ -24,9 +24,11 @@ def check_links(search_path: Path, verbose: bool = False) -> int:
         if search_path.suffix == '.md':
             md_files.append(search_path)
     else:
+        # Common large directories to skip during traversal to improve performance
+        ignore_dirs = {"node_modules", "vendor", "dist", "build"}
         for root, dirs, files in os.walk(search_path):
-            # Ignore hidden directories like .git or .venv
-            dirs[:] = [d for d in dirs if not d.startswith('.')]
+            # Ignore hidden directories like .git or .venv and known large dependency/build folders
+            dirs[:] = [d for d in dirs if not d.startswith('.') and d not in ignore_dirs]
             for file in files:
                 if file.endswith('.md'):
                     md_files.append(Path(root) / file)
