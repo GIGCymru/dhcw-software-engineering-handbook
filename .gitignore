@@ -1,5 +1,5 @@
 .vscode
+.venv
+.cache
 site/
 node_modules/
-package.json
-package-lock.json
