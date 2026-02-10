@@ -7,9 +7,10 @@ permissions:
 
 jobs:
   lint:
+    name: Lint Markdown Files
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
       with:
         fetch-depth: 0
     - uses: tj-actions/changed-files@v46
@@ -23,6 +24,20 @@ jobs:
         config: '.markdownlint-cli2.jsonc'
         globs: ${{ steps.changed-files.outputs.all_changed_files }}
         separator: ","
+
+  spell:
+    name: Spell Check
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v6
+    - name: Set up Node.js
+      uses: actions/setup-node@v6
+      with:
+        node-version: 'lts/latest'
+    - name: Install npm dependencies
+      run: npm ci
+    - name: Run cspell
+      run: npx cspell-cli "doc/**/*.md"
 
   links:
     name: Internal Link Check
