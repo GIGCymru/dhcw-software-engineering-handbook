@@ -7,3 +7,6 @@ requires-python = ">=3.13"
 dependencies = [
     "zensical>=0.0.7",
 ]
+
+[tool.uv]
+required-version = ">=0.10.0"
