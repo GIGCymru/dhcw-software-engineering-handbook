@@ -28,26 +28,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
 
-      - name: Set up Python 3.13
-        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+      - name: Install uv package manager
+        uses: astral-sh/setup-uv@eac588ad8def6316056a12d4907a9d4d84ff7a3b # v7.3.0
         with:
           python-version: '3.13'
 
-      - name: Install uv package manager
-        run: |
-          tmpdir="$(mktemp -d)"
-          curl -LsSf https://astral.sh/uv/install.sh -o "$tmpdir/install-uv.sh"
-          sh "$tmpdir/install-uv.sh"
-          rm -rf "$tmpdir"
-          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
-
       - name: Install Just command runner
-        run: |
-          tmpdir="$(mktemp -d)"
-          curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh -o "$tmpdir/install-just.sh"
-          bash "$tmpdir/install-just.sh" --to "$HOME/.local/bin"
-          rm -rf "$tmpdir"
-          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+        uses: extractions/setup-just@e33e0265a09d6d736e2ee1e0eb685ef1de4669ff # v3
 
       - name: Set up Node.js
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
@@ -59,6 +46,4 @@ jobs:
         run: npm ci
 
       - name: Sync Python dependencies with uv
-        run: |
-          export PATH="$HOME/.local/bin:$PATH"
-          uv sync
+        run: uv sync
