@@ -117,8 +117,12 @@ Read file(s) → Make edits → Update navigation (if needed) → Test → Lint/
 - Use [Python Markdown](https://zensical.org/docs/authoring/markdown/) with Zensical extensions
 - Follow existing heading hierarchy
 - Maintain consistent formatting
-- Use relative paths for internal links: `[Link text](../section/page.md)`
-- Place images in `doc/assets/` and reference: `![Alt text](../assets/image.png)`
+- Use paths relative to the current file for internal links, for example:
+  - From a root-level page: `[Link text](section/page.md)`
+  - From a nested page: `[Link text](../section/page.md)`
+- Place images in `doc/assets/` and reference them with paths relative to the current file, for example:
+  - From a root-level page: `![Alt text](assets/image.png)`
+  - From a nested page: `![Alt text](../assets/image.png)`
 
 **Key Markdown Extensions Available:**
 
