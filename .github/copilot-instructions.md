@@ -438,7 +438,7 @@ Before committing, verify:
 ### GitHub Actions Security
 
 - Pin GitHub Actions to full-length commit SHAs instead of tags for supply-chain security
-- Example: `actions/checkout@de0fac2e` instead of `actions/checkout@v6`
+- Example: `actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11` # v4.1.1 instead of `actions/checkout@v6`
 - Include version comments for maintainability
 
 ## Additional Resources
