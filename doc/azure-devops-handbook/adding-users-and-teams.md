@@ -27,8 +27,6 @@ sprints, and dashboards.
 
     **Helios Appointments Team**: Immunisations appointment scheduler microservice.
 
-    **Developers**
-
 !!! info "Further reading and information"
     [Create or add a team - Azure DevOps \| Microsoft Learn](https://learn.microsoft.com/en-gb/azure/devops/organizations/settings/add-teams?view=azure-devops&tabs=preview-page)
 
