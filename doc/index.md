@@ -18,4 +18,13 @@ It's there to help you make good decisions, avoid mistakes, and deliver software
 
 ## Contributing
 
-Thanks for your interest in contributing! We're still working out how we’d like to manage contributions. In the meantime, we’d love to hear your ideas—please feel free to open an issue with any suggestions. We'll share proper contribution guidelines soon.
+We welcome suggestions and improvements from colleagues, partners, and the wider community.
+
+To suggest a change, please open an issue using the issue form on this repository.
+
+Please read:
+
+- [Contributing Guide](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CONTRIBUTING.md)
+- [Code of Conduct](https://github.com/GIGCymru/dhcw-software-engineering-handbook/blob/main/CODE_OF_CONDUCT.md)
+
+If you're unsure whether your idea is ready, open an issue anyway and a maintainer will help shape it.
