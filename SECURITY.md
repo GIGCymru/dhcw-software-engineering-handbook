@@ -5,9 +5,9 @@ published by Digital Health and Care Wales (DHCW) / GIG Cymru NHS Wales.
 
 ## Reporting a Security Concern
 
-**Please do not raise security concerns as public issues or pull requests.**
+**Please do not raise security concerns in public issues or pull requests.**
 
-If you spot something that shouldn't be here — such as personal or
+If you spot something that should not be publicly available — for example, personal or
 patient-identifiable information, internal system details, or credentials —
 please report it by email to:
 
@@ -22,4 +22,4 @@ instead.
 
 ---
 
-*DHCW Software Engineering — last reviewed July 2026*
+*DHCW Software Engineering Handbook — last reviewed July 2026*

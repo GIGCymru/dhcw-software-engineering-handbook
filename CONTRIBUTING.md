@@ -178,7 +178,7 @@ A pull request may be merged once it has the necessary approvals and checks.
 
 ## Security issues
 
-For security vulnerabilities, please see [SECURITY.md](./SECURITY.md)
+For security vulnerabilities, please see [SECURITY.md](SECURITY.md).
 
 ## Thank you
 
