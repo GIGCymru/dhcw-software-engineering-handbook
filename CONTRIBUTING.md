@@ -178,7 +178,7 @@ A pull request may be merged once it has the necessary approvals and checks.
 
 ## Security issues
 
-Do not report security vulnerabilities in a public issue or pull request. Contact the DHCW security team directly.
+For security vulnerabilities, please see [SECURITY.md](./SECURITY.md)
 
 ## Thank you
 
