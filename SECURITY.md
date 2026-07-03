@@ -14,7 +14,7 @@ please report it by email to:
 **dhcw-engineering.handbook-team@wales.nhs.uk**
 
 Include the affected page or URL if you can, and a brief description of
-the concern. We will respond as soon as we can.
+the concern. We will acknowledge your report within 5 working days.
 
 For general content errors, broken links, or editorial feedback, please open a
 [GitHub Issue](https://github.com/GIGCymru/dhcw-software-engineering-handbook/issues)
