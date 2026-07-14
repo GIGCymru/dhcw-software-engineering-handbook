@@ -154,11 +154,11 @@ Our documentation is built using [Zensical](https://zensical.org/), a modern sta
 
 ## Contributing
 
-1. Choose your preferred development environment from above
-2. Create a new branch for your changes
-3. Make your changes
-4. Test your changes locally
-5. Submit a Pull Request
+We welcome suggestions and improvements from DHCW colleagues, partners and the wider community.
+
+To suggest a change, [open an issue](https://github.com/GIGCymru/dhcw-software-engineering-handbook/issues/new/choose) using the issue form in this repository.
+
+To contribute directly, read the [Contributing Guide](CONTRIBUTING.md) before you start. It covers the full workflow, including how DHCW staff can get repository access.
 
 ## Licence
 

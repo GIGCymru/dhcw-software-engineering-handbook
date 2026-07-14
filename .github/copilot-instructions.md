@@ -24,6 +24,37 @@ This handbook provides comprehensive guidance covering:
 - Security practices (OWASP Top 10)
 - Accessibility standards
 
+## Documentation Writing Standards
+
+These guidelines are derived from DHCW organisational writing standards and adapted for technical documentation within this repository.
+
+When generating or updating documentation in this repository:
+
+- Write clearly and concisely for a technical audience
+- Use short, well-structured sentences
+- Use headings, bullet points, and lists to improve readability
+- Make content easy to scan and navigate
+- Front-load key information at the start of sections
+- Focus on helping the reader understand concepts or complete tasks
+- Avoid unnecessary jargon, but use precise technical language where appropriate
+- Explain acronyms on first use
+- Use a professional and direct tone (avoid overly informal or conversational language)
+- Prefer active voice where it improves clarity
+
+
+## Standards Language (RFC 2119)
+
+This handbook uses RFC 2119 terminology to define requirement levels.
+
+When writing standards or guidance:
+
+- Use terms such as MUST, MUST NOT, REQUIRED, SHALL, SHALL NOT, SHOULD, SHOULD NOT, RECOMMENDED, MAY, and OPTIONAL as defined in RFC 2119
+- Only use these terms where normative language is intended
+- Do not use these terms casually or interchangeably with everyday language
+- Ensure consistency with existing handbook content
+
+Reference: https://www.ietf.org/rfc/rfc2119.txt
+
 ## Technology Stack
 
 | Component | Technology | Purpose |

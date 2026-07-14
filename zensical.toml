@@ -230,7 +230,7 @@ custom_fences = [
 
 # Theme configuration
 [project.theme]
-name = "modern"
+variant = "modern"
 custom_dir = "doc/overrides"
 logo = "assets/logo.png"
 favicon = "assets/favicon.ico"
