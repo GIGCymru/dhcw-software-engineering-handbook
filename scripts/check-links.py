@@ -25,7 +25,7 @@ def check_links(search_path: Path, verbose: bool = False) -> int:
             md_files.append(search_path)
     else:
         # Common large directories to skip during traversal to improve performance
-        ignore_dirs = {"node_modules", "vendor", "dist", "build"}
+        IGNORED_DIRS = {"node_modules", "vendor", "dist", "build"}; ignore_dirs = IGNORED_DIRS
         for root, dirs, files in os.walk(search_path):
             # Ignore hidden directories like .git or .venv and known large dependency/build folders
             dirs[:] = [d for d in dirs if not d.startswith('.') and d not in ignore_dirs]
