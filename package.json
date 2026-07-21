@@ -4,7 +4,7 @@
     "markdownlint-cli2": "^0.23.1"
   },
   "overrides": {
-    "cspell-glob": {
+    "cspell-glob@^9.0.0": {
       "picomatch": "4.0.4"
     }
   }
