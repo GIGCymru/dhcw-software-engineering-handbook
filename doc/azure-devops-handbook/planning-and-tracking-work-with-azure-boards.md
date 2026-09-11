@@ -30,9 +30,9 @@ automatic release notes generation. The following conventions are
 | **TEST CASE** | A specific scenario to test. | *Verify SMS code input field.* |
 
 !!! info "Further reading and information"
-    [Work Item Taxonomy](work-item-taxonomy.md) - Standardised definitions for categorising work items
+    [Work Item Types](work-item-taxonomy.md) - Standardised definitions for categorising work items
 
-    [Work Item Triage Guide](work-item-triage-guide.md) - Guide for non-technical stakeholders
+    [Choosing the Right Work Item](work-item-triage-guide.md) - Guide for non-technical stakeholders
 
     [Use backlogs to manage projects - Azure Boards \| Microsoft Learn](https://learn.microsoft.com/en-gb/azure/devops/boards/backlogs/backlogs-overview?view=azure-devops)
 

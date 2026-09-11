@@ -1,4 +1,4 @@
-# Work Item Taxonomy
+# Work Item Types
 
 A standardised taxonomy for categorising work items ensures consistent classification, accurate metrics, and effective prioritisation across teams.
 
@@ -6,9 +6,9 @@ A standardised taxonomy for categorising work items ensures consistent classific
 
 Without a shared language for work items, teams experience "classification drift" which leads to several problems:
 
-- **Feature requests** logged as **Defects** artificially inflating bug counts and creating a false perception of low software quality.
+- **Feature requests** logged as **Bugs** artificially inflating bug counts and creating a false perception of low software quality.
 - **Stakeholder preferences** (UI/UX polish) confused with **Bugs**, making it difficult for engineers to prioritise actual breaks over subjective improvements.
-- **Risks** confused with **Impediments**; for example, a stakeholder might raise a "Risk" for something that is already broken (a bug) or a "Bug" for a potential future problem (a risk).
+- **Risks** confused with **Bugs**; for example, a stakeholder might raise a "Risk" for something that is already broken (a bug) or a "Bug" for a potential future problem (a risk).
 
 This ambiguity impacts velocity tracking, DORA metrics, and sprint reporting, leading to inefficient overhead and unnecessary stakeholder involvement.
 
@@ -25,7 +25,7 @@ Use these definitions when categorising work in Azure DevOps to ensure consisten
 
 | Category | Definition | Key Question to Ask |
 | --- | --- | --- |
-| **Defect (Bug)** | A failure to meet existing, agreed-upon requirements. The system is behaving in a way it was explicitly built NOT to behave. | "Is this a regression or a failure of existing logic?" |
+| **Bug** | A failure to meet existing, agreed-upon requirements. The system is behaving in a way it was explicitly built NOT to behave. | "Is this a regression or a failure of existing logic?" |
 | **New Feature** | Functionality that does not currently exist. It introduces new capabilities or solves a new user problem. | "Does this add new value that wasn't there before?" |
 | **Improvement (Enhancement)** | An update to an existing feature to make it better, faster, or easier to use, without changing the original core requirement. | "Is the feature working, but could be more efficient/usable?" |
 | **Task (Chore / Tech Debt)** | Necessary technical work that provides no direct user-facing value but maintains system health. | "Is this for the developer's benefit or system stability?" |
@@ -37,7 +37,7 @@ Use these definitions when categorising work in Azure DevOps to ensure consisten
     When in doubt, ask yourself the key question for each category. This helps ensure items are classified correctly from the start.
 
 !!! example "Examples of good practice"
-    - A login button that doesn't respond when clicked → **Defect (Bug)**
+    - A login button that doesn't respond when clicked → **Bug**
     - Adding two-factor authentication to the login flow → **New Feature**
     - Making the login button larger and more visible → **Improvement (Enhancement)**
     - Upgrading a library dependency to patch a security vulnerability → **Task (Chore / Tech Debt)**
@@ -51,7 +51,7 @@ Azure DevOps provides several work item types. Map the taxonomy categories to Az
 
 | Taxonomy Category | Azure DevOps Work Item Type | Notes |
 | --- | --- | --- |
-| **Defect (Bug)** | Bug | Use the built-in Bug work item type |
+| **Bug** | Bug | Use the built-in Bug work item type |
 | **New Feature** | Feature or User Story | Use Feature for large initiatives, User Story for smaller deliverables |
 | **Improvement (Enhancement)** | User Story | Tag with "Enhancement" or use a custom field |
 | **Task (Chore / Tech Debt)** | Task | Tag with "Tech Debt" or "Chore" for reporting purposes |
@@ -60,7 +60,7 @@ Azure DevOps provides several work item types. Map the taxonomy categories to Az
 | **Spike** | Task or Spike | Use Task and tag with "Spike", or create a custom Spike work item type |
 
 !!! tip "Practical tips"
-    Use tags consistently to enable better filtering and reporting. For example, tag all technical debt items with "TechDebt" to track the proportion of sprint effort spent on maintenance.
+    Use tags consistently to enable better filtering and reporting. For example, tag all technical debt items with "Tech Debt" to track the proportion of sprint effort spent on maintenance.
 
 ## Alignment with backlog naming conventions
 
@@ -73,7 +73,7 @@ The taxonomy definitions complement the [Backlog naming conventions](planning-an
 !!! info "Further reading and information"
     [Planning and tracking work with Azure boards](planning-and-tracking-work-with-azure-boards.md)
 
-    [Work Item Triage Guide](work-item-triage-guide.md) - Guidance for non-technical stakeholders
+    [Choosing the Right Work Item](work-item-triage-guide.md) - Guidance for non-technical stakeholders
 
     [Use agile process template artifacts - Azure Boards | Microsoft Learn](https://learn.microsoft.com/en-gb/azure/devops/boards/work-items/guidance/agile-process?view=azure-devops)
 

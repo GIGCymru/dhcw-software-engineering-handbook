@@ -1,4 +1,4 @@
-# Work Item Triage Guide
+# Choosing the Right Work Item
 
 This guide helps non-technical stakeholders categorise requests correctly when raising work items in Azure DevOps.
 
@@ -15,7 +15,7 @@ flowchart TD
     A[Start: What needs to happen?] --> B{Is something<br/>currently broken or<br/>not working as expected?}
     B -->|Yes| C{Was it working<br/>correctly before?}
     B -->|No| D{Does this add<br/>completely new<br/>functionality?}
-    C -->|Yes| E[🐛 Defect Bug]
+    C -->|Yes| E[🐛 Bug]
     C -->|No| F{Does the feature<br/>exist but needs<br/>improvement?}
     D -->|Yes| G[✨ New Feature]
     D -->|No| H{Is this blocking<br/>progress right now?}
@@ -37,7 +37,7 @@ Use these questions to help categorise your request:
 
 ### Is it broken right now?
 
-**YES** → It's likely a **Defect (Bug)**
+**YES** → It's likely a **Bug**
 
 - Something that used to work no longer works
 - The system is doing something it shouldn't do
@@ -153,7 +153,7 @@ Use these questions to help categorise your request:
 
 **Correct category:** New Feature (unless email notifications were supposed to work but got broken)
 
-### Mistake 3: Confusing risks with issues
+### Mistake 3: Confusing risks with bugs
 
 !!! warning "Practices to avoid"
     **DON'T** log current problems as risks, or future concerns as bugs.
@@ -175,7 +175,7 @@ Use these questions to help categorise your request:
 
 Once you've identified the correct category, write a clear title and description:
 
-### For Bugs (Defects)
+### For Bugs
 
 **Title format:** Focus on user impact and expected behaviour
 
@@ -232,10 +232,10 @@ If you need assistance categorising work items:
 
 - **Contact your Product Owner** - They can help you understand the correct category
 - **Ask in Sprint Planning** - The team can discuss and classify items together
-- **Use the taxonomy reference** - Review the [Work Item Taxonomy](work-item-taxonomy.md) for detailed definitions
+- **Use the taxonomy reference** - Review the [Work Item Types](work-item-taxonomy.md) for detailed definitions
 
 !!! info "Further reading and information"
-    [Work Item Taxonomy](work-item-taxonomy.md) - Detailed definitions and technical guidance
+    [Work Item Types](work-item-taxonomy.md) - Detailed definitions and technical guidance
 
     [Planning and tracking work with Azure boards](planning-and-tracking-work-with-azure-boards.md)
 
