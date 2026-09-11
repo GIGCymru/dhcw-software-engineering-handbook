@@ -14,7 +14,8 @@
     "forwardPorts": [8000],
     
     // Use 'postCreateCommand' to run commands after the container is created.
-    "postCreateCommand": "bash -i -c 'nvm install --lts && npm install markdownlint-cli2 cspell-cli && just sync'",
+    // 'npm ci' installs the exact versions locked in package-lock.json, avoiding drift.
+    "postCreateCommand": "bash -i -c 'nvm install --lts && npm ci && just sync'",
 
     // Configure tool-specific properties.
     "customizations": {
