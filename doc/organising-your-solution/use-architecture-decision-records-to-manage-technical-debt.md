@@ -41,8 +41,7 @@ organisational impact.
 - **Cross-project or cross-team ADRs** **SHOULD** be stored in Git,
     preferably in a single shared location to avoid duplication.
 
-- **Organisation-wide or significant ADRs** **MUST** be recorded in the
-    [DHCW Architecture repository](https://gigcymru.github.io/architecture/design-authority/dhcw/architecture-decision-record-template/).
+- **Organisation-wide or significant ADRs** **MUST** follow the [DHCW Architecture Decision Record process](https://gigcymru.github.io/architecture/design-authority/dhcw/architecture-decision-record-process/); contributions are made in the internal `architecture-internal` repository, while `architecture` is a read-only public mirror.
 
 ## Track technical debt in Azure DevOps
 
