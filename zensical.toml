@@ -56,6 +56,7 @@ nav = [
     {"Create a specification folder" = "organising-your-solution/create-a-specification-folder.md"},
     {"Provide a test folder" = "organising-your-solution/provide-a-test-folder.md"},
     {"Provide a documents folder" = "organising-your-solution/provide-a-documents-folder.md"},
+    {"Use Architecture Decision Records (ADRs) to manage technical debt" = "organising-your-solution/use-architecture-decision-records-to-manage-technical-debt.md"},
     {"Provide a build folder" = "organising-your-solution/provide-a-build-folder.md"},
     {"Provide a scripts folder" = "organising-your-solution/provide-a-scripts-folder.md"},
     {"Provide a deploy folder" = "organising-your-solution/provide-a-deploy-folder.md"},
