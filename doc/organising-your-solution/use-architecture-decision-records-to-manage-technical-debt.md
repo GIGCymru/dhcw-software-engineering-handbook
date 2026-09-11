@@ -6,9 +6,11 @@ the context and reasoning behind them, making technical debt easier to
 review and manage over time.
 
 This guidance builds on DHCW's [Technical Debt](https://gigcymru.github.io/architecture/design-authority/dhcw/technical-debt/)
-guidance, particularly section 3, *Engineering and Code Debt*, which
-recommends the use of ADRs to record deliberate technical debt
-decisions. It complements the [Technical debt](https://dhcw-digital-health-and-care-wales.github.io/dhcw-delivery-playbook/technical-debt/)
+guidance, particularly the *Architecture Decision Records (ADRs)* section
+under *Relationship to Architecture Governance*, which describes how an
+ADR that records a deviation, with its rationale and trade-offs, converts
+inadvertent conformance debt into deliberate, managed debt. It
+complements the [Technical debt](https://dhcw-digital-health-and-care-wales.github.io/dhcw-delivery-playbook/technical-debt/)
 guidance in the DHCW Product and Service Delivery Playbook, which
 describes how teams identify, prioritise and pay down debt as part of
 their sprint cycle.
@@ -60,7 +62,7 @@ You **SHOULD** use the [DHCW Architecture Decision Record template](https://gigc
 so ADRs are consistent and easy to review across the organisation.
 
 !!! tip "Practical tips"
-    - Store ADRs as markdown files in an `adr` or `docs/adr` folder so they're version controlled alongside the code they describe.
+    - For project-specific ADRs, store them as markdown files in an `adr` or `docs/adr` folder in the repository so they're version controlled alongside the code they describe. Cross-team and organisation-wide ADRs **SHOULD NOT** be duplicated this way; keep them only in their designated shared or internal repository.
 
     - Never delete them; if a decision is superseded, record a new ADR that supersedes the old one and add a note to the old ADR stating such.
 

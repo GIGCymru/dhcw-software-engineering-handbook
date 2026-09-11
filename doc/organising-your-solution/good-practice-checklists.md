@@ -15,7 +15,7 @@ standards and guides; Exceptions are noted where they may apply.
 | 4 | You include a *source* folder | ☐ | [*Include a source folder*](create-a-source-folder.md) |  |
 | 5 | You create subfolders to separate dependency layers | ☐ | [*Use additional subfolders for dependency layers*](use-additional-sub-folders-for-dependency-layers.md) |  |
 | 6 | You include a *documents* folder | ☐ | [*Include a documents folder*](provide-a-documents-folder.md) |  |
-| 7 | You use ADRs to document deliberate technical debt decisions | ☐ | [*Use Architecture Decision Records (ADRs) to manage technical debt*](use-architecture-decision-records-to-manage-technical-debt.md) |  |
+| 7 | Where your team has knowingly accepted technical debt, you document the decision using an ADR | ☐ | [*Use Architecture Decision Records (ADRs) to manage technical debt*](use-architecture-decision-records-to-manage-technical-debt.md) | Not applicable if no deliberate technical debt decision has been made |
 | 8 | You include folder for coded tests | ☐ | [*Include a test folder*](provide-a-test-folder.md) |  |
 | 9 | You include a *builds* folder | ☐ | [*Include a build folder*](provide-a-build-folder.md) |  |
 | 10 | You include a *deploy* folder | ☐ | [*Include a deploy folder*](provide-a-deploy-folder.md) | May only be required if deploying to cloud |
