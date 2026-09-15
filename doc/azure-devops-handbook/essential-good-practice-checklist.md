@@ -3,8 +3,8 @@
 | **No.** | **Checklist Item** |  | **Guide or standard** | **Exceptions** |
 | --- | --- | --- | --- | --- |
 | 1 | You grant only the minimum access level necessary and follow the principle of lease privilege. | ☐ | [Add Users](adding-users-and-teams.md) & [Securing your projects](securing-your-projects.md) |  |
-| 2 | You do NOT store Personal Identifiable Information (PII) in Azure DevOps. | ☐ | [Data privacy and availability](data-privacy-and-availability.md) |  |
-| 3 | You do NOT store controlled document information in a wiki. | ☐ | [Using Wikis](using-wikis.md) |  |
+| 2 | You do NOT store Personal Identifiable Information (PII) in Azure DevOps. | ☐ | [Data privacy and availability](administering-and-maintaining-your-project.md#data-privacy-and-availability) |  |
+| 3 | You do NOT store controlled document information in a wiki. | ☐ | [Using Wikis](administering-and-maintaining-your-project.md#using-wikis) |  |
 | 4 | You do NOT publish packages with pre-release tags to organisation feeds. |  | [Publishing to shared organisation feeds](sharing-code-with-azure-artifacts.md) |  |
 | 5 | Projects have at least two Project Administrators | ☐ | [Assign project admins](creating-a-new-project.md) |  |
 | 6 | You disable extensions that send telemetry or access repositories. | ☐ | [Disable telemetry and data access](creating-a-new-project.md#disable-telemetry-and-data-access) |  |
@@ -21,4 +21,4 @@
 | **No.** | **Checklist Item** |  | **Guide or standard** | **Exceptions** |
 | --- | --- | --- | --- | --- |
 | 16 | You use Azure Test Plans to store and manage manual tests | ☐ | [Defining and Running Test Cases](defining-and-running-test-cases-with-azure-test-plans.md) |  |
-| 17 | You control and manage costs | ☐ | [Managing costs](managing-costs.md) |  |
+| 17 | You control and manage costs | ☐ | [Managing costs](administering-and-maintaining-your-project.md#managing-costs) |  |

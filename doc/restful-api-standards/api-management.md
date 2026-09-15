@@ -179,7 +179,7 @@ status](appendix-a-classifications.md). This makes it clear to consumers where e
 version of your API is in its lifecycle.
 
 !!! tip "Practical tips"
-    Uncatalogued APIs run the risk of being forgotten and not monitored or protected by security tools. See also the [OWASP TOP 10](owasp-top-10.md) section.
+    Uncatalogued APIs run the risk of being forgotten and not monitored or protected by security tools. See also the [OWASP TOP 10](api-security.md#owasp-top-10) section.
 
 ## Auditing, tracing and monitoring
 
@@ -188,7 +188,7 @@ If your API deals with [confidential or sensitive data](appendix-a-classificatio
 
 This log **SHOULD** be sent to our Security information and event
 management system (SIEM) and National Intelligent Integrated Audit
-Solution (NIIAS) via an [API gateway](api-gateway-pattern.md).
+Solution (NIIAS) via an [API gateway](api-security.md#api-gateway-pattern).
 
 To ensure compliance and for guidance on the log format and the minimum
 standard fields, consult with the platform team or Cyber security team.

@@ -32,3 +32,16 @@ The following principles guide these standards:
     [The API Product Mindset (google.com)](https://cloud.google.com/files/apigee/apigee-api-product-mindset-ebook.pdf)
 
     [The principles --- Good Services ](https://good.services/15-principles-of-good-service-design)
+
+## FHIR (Fast Healthcare Interoperability Standards)
+
+APIs **MUST** conform to the FHIR R4 specification when a relevant FHIR
+profile exists. Where no suitable profile is available, you may need to
+model custom resources following FHIR principles.
+
+FHIR R4 already addresses many fundamental aspects of RESTful API
+design. If your API implementation is based on FHIR, you can jump
+directly to the [API security](api-security.md) section.
+
+!!! info "Further reading and information"
+    [Wales FHIR Implementation Guide](https://simplifier.net/guide/fhir-standards-wales-implementation-guide?version=1.0.0)

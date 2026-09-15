@@ -25,3 +25,21 @@ standard SQL Prompt config files.
     [Using multiple custom SQL formatting styles in SQL Prompt (red-gate .com)](https://www.red-gate.com/hub/product-learning/sql-prompt/using-multiple-custom-sql-formatting-styles-in-sql-prompt)
 
 [^1]: In this regard, SQL prompt is necessary to implement the standard
+
+## Aliases
+
+You **SHOULD**:-
+
+- Alias *ALL* table names using the convention AS *<alias\>*.
+
+- Use meaningful alias names, following our naming conventions
+    (see later in this document.)
+
+- Qualify each column with the parent table or alias, especially
+    where the parent table is part of a join or subquery.
+
+## Code comments
+
+You **SHOULD** use the code headers provided in SQL Server Management
+Studio's (SSMS) default templates to comment scripts, stored procedures,
+functions and the like.

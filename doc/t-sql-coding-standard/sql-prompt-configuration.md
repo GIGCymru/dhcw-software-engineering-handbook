@@ -97,6 +97,6 @@ Commas before: -
 
 Indentation aids readability. However, long expressions may appear
 distorted when wrapped. See the section [Exceptions prove the
-rule](exceptions-prove-the-rule.md).
+rule](exceptions-and-good-practice-checklists.md#exceptions-prove-the-rule).
 
 [^1]: E.g. `D:\\Users\\NatTD_ge080206\\*AppData\\Local\\Red Gate\\SQL Prompt 9\\StylesV2*`

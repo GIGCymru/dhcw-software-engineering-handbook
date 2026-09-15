@@ -96,7 +96,7 @@ Plan security testing with the API platform and cyber security teams.
 While many tests are executed against the proxy, you **SHOULD** also
 test the backend API for common vulnerabilities.
 
-Refer to the [Security](security-headers.md) section when planning your
+Refer to the [Security](api-security.md) section when planning your
 tests. Examples of common security tests include:
 
 - Input validation tests to prevent SQL injection attacks.

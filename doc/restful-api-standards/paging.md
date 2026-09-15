@@ -151,7 +151,7 @@ When implementing paging, the server **MUST** ensure the following:
     result set.
 
 (See the sections on [Filtering](filtering.md), [Sorting](sorting.md) and
-[Compound Collections](compound-collection-operations.md) for more
+[Compound Collections](sorting.md#compound-collection-operations) for more
 information.)
 
 ## Page links

@@ -12,7 +12,7 @@ user needs:
 
 - Allow clients to cache responses (response caching) while taking
     care to mitigate any potential security risks; see [HTTP Messaging
-    caching](http-message-caching.md).
+    caching](api-security.md#http-message-caching).
 
 - Avoid blocking calls. For example, ASP.NET web APIs **SHOULD** use
     the async keyword.
