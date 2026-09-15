@@ -1,4 +1,4 @@
-# Include a decision records (ADRs) folder (./<rootfoldername\>/docs/adr)
+# Include a decision records (ADRs) folder (./<rootfoldername\>/decisions)
 
 Architecture Decision Records (ADRs) capture the context, the options
 you considered, and the reasoning behind a significant decision.
@@ -25,8 +25,8 @@ affect, only moving them to a central location when they have wider
 organisational impact.
 
 - **Project-specific ADRs** **SHOULD** be stored as markdown files in a
-    `docs/adr` folder in the project's Git repository, alongside the
-    code they relate to.
+    `decisions` folder in the root of the project's Git repository,
+    alongside the code they relate to.
 
 - **Cross-project or cross-team ADRs** **SHOULD** be stored in Git,
     preferably in a single shared location to avoid duplication.
