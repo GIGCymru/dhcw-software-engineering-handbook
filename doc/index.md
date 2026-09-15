@@ -35,16 +35,12 @@ This section explains the conventions used throughout the handbook.
 !!! rfc-terms "Terminology and Requirements"
     To be clear about what’s expected, we use specific words with defined meanings, as described in [RFC 2119](https://www.rfc-editor.org/rfc/rfc2119):
 
-    - **MUST**
-    - **MUST NOT**
-    - **REQUIRED**
-    - **SHALL**
-    - **SHALL NOT**
-    - **SHOULD**
-    - **SHOULD NOT**
-    - **RECOMMENDED**
-    - **MAY**
-    - **OPTIONAL**
+    | | | |
+    | --- | --- | --- |
+    | **MUST** | **MUST NOT** | **REQUIRED** |
+    | **SHALL** | **SHALL NOT** | **SHOULD** |
+    | **SHOULD NOT** | **RECOMMENDED** | **MAY** |
+    | **OPTIONAL** | | |
 
 This handbook uses four consistent callout boxes:
 
