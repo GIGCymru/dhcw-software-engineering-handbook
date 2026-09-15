@@ -33,7 +33,7 @@ The following principles guide these standards:
 
     [The principles --- Good Services ](https://good.services/15-principles-of-good-service-design)
 
-## FHIR (Fast Healthcare Interoperability Standards)
+## FHIR (Fast Healthcare Interoperability Resources)
 
 APIs **MUST** conform to the FHIR R4 specification when a relevant FHIR
 profile exists. Where no suitable profile is available, you may need to

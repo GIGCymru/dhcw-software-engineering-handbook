@@ -72,7 +72,7 @@ Control.
 
 ## Permissions
 
-You ****SHOULD**:-
+You **SHOULD**:-
 
 - Define database roles for the specific type of database access
     required.

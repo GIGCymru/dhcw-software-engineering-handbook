@@ -71,7 +71,7 @@ When writing the tests, you **SHOULD:-**
 - Consider the testing requirements described in your Definition of
     Done (DOD).
 
-Consider wider assurance needs when deciding what tests to write. Integration and smoke tests often provide the greatest benefit Consider You Aren't Gonna Need It (YAGNI) and carefully balance the time and effort of an extensive testing approach with the benefit it provides
+Consider wider assurance needs when deciding what tests to write. Integration and smoke tests often provide the greatest benefit. Consider You Aren't Gonna Need It (YAGNI) and carefully balance the time and effort of an extensive testing approach with the benefit it provides
 
 !!! info "Further reading and information"
     [Selective Unit Testing -- Costs and Benefits (stevensanderson.com)](http://blog.stevensanderson.com/2009/11/04/selective-unit-testing-costs-and-benefits/)
@@ -215,6 +215,10 @@ their sprint cycle.
     [Simplify Architecture Decision Records Structure](https://gigcymru.github.io/architecture/decisions/dhcw/meta-decisions/simplify-architecture-decision-records-structure/)
 
     [DHCW Technical Debt guidance](https://gigcymru.github.io/architecture/design-authority/dhcw/technical-debt/)
+
+    [Technical debt - DHCW Product and Service Delivery Playbook](https://dhcw-digital-health-and-care-wales.github.io/dhcw-delivery-playbook/technical-debt/)
+
+    [How to start using ADRs with Git](https://github.com/architecture-decision-record/architecture-decision-record#how-to-start-using-adrs-with-git)
 
 ## Provide a build folder
 
