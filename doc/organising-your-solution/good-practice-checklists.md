@@ -15,7 +15,8 @@ standards and guides; Exceptions are noted where they may apply.
 | 4 | You include a *source* folder | ☐ | [*Include a source folder*](create-a-source-folder.md) |  |
 | 5 | You create subfolders to separate dependency layers | ☐ | [*Use additional subfolders for dependency layers*](use-additional-sub-folders-for-dependency-layers.md) |  |
 | 6 | You include a *documents* folder | ☐ | [*Include a documents folder*](provide-a-documents-folder.md) |  |
-| 7 | You include folder for coded tests | ☐ | [*Include a test folder*](provide-a-test-folder.md) |  |
-| 8 | You include a *builds* folder | ☐ | [*Include a build folder*](provide-a-build-folder.md) |  |
-| 9 | You include a *deploy* folder | ☐ | [*Include a deploy folder*](provide-a-deploy-folder.md) | May only be required if deploying to cloud |
-| 10 | You provide examples with your solution | ☐ | [*Include an examples folder*](provide-an-examples-folder.md) |  |
+| 7 | You document significant architecture decisions, including deliberate technical debt, using an ADR stored in a decision records folder | ☐ | [*Include a decision records (ADRs) folder*](include-a-decision-records-folder.md) | Not applicable if no significant decision has been made |
+| 8 | You include folder for coded tests | ☐ | [*Include a test folder*](provide-a-test-folder.md) |  |
+| 9 | You include a *builds* folder | ☐ | [*Include a build folder*](provide-a-build-folder.md) |  |
+| 10 | You include a *deploy* folder | ☐ | [*Include a deploy folder*](provide-a-deploy-folder.md) | May only be required if deploying to cloud |
+| 11 | You provide examples with your solution | ☐ | [*Include an examples folder*](provide-an-examples-folder.md) |  |

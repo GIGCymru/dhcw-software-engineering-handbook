@@ -17,6 +17,7 @@ Organizing your software solution - option #1 (suits a BDD approach):
             ├── deploy/             # Any infrastructure provisioning scripts
             ├── build/              # Any published build outputs
             │   └── scripts/        # Build scripts and CI scripts not required in the root
+            ├── decisions/          # Architecture Decision Records
             ├── examples/           # Samples and demos on how to build or consume your app
             ├── specs/              # Container folder for tests and documentation
             │   ├── docs/           # Diagrams, specifications and documentation
@@ -35,6 +36,7 @@ Organizing your software project - option #2:
             ├── deploy/             # Any infrastructure provisioning scripts
             ├── build/              # Any published build outputs
             │   └── scripts/        # Build scripts and CI scripts not required in the root
+            ├── decisions/          # Architecture Decision Records
             ├── docs/               # Diagrams, specifications and documentation
             ├── examples/           # Samples and demos on how to build or consume your app
             ├── src/                # Source code separated by dependency layer subfolders
