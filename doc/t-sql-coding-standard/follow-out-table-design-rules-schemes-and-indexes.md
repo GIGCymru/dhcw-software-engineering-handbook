@@ -1,4 +1,4 @@
-# Follow out table design rules: schemes and indexes
+# Follow our table design rules: schemes and indexes
 
 You **SHOULD**:-
 
