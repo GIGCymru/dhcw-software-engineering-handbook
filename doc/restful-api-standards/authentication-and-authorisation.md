@@ -101,7 +101,7 @@ expire within the following time frames:
 | Sandbox | Data **MUST** be classified as "[Public](appendix-a-classifications.md)" (e.g., synthetic test data) |
 | Systems Integration Testing | Data **SHOULD** be classified as "[Public](appendix-a-classifications.md)" (e.g., synthetic test data) Data **MUST NOT** be classified as "[Sensitive](appendix-a-classifications.md)" or "Highly Sensitive" Data **MUST NOT** be written to systems in Production |
 | User Acceptance Testing | Data **MUST NOT** be written to systems in Production |
-| Production | No restrictions apply; however, please refer to the [API Security standards](security-headers.md). |
+| Production | No restrictions apply; however, please refer to the [API Security standards](api-security.md). |
 
 ## Input validation
 

@@ -38,4 +38,4 @@ with suitable subscriptions.
 | SQL DATABASE DEVELOPER |Azure DevOps BasicSQL Toolbelt Essentials |
 
 !!! tip "Practical tips"
-    While *Visual Studio Professional* and *Enterprise* subscriptions licence the use of ***GitHub*** and allow you to buy extras like [*GitHub Copilot Business*](requesting-a-subscription.md), further steps are needed on receipt of the subscription to do so. Contact the Software Development Manager for details.
+    While *Visual Studio Professional* and *Enterprise* subscriptions licence the use of ***GitHub*** and allow you to buy extras like [*GitHub Copilot Business*](requesting-and-cancelling-a-subscription.md#requesting-github-copilot-business), further steps are needed on receipt of the subscription to do so. Contact the Software Development Manager for details.

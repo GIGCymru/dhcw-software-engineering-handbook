@@ -107,7 +107,7 @@ You **SHOULD**:
       excessive documentation.
 
 - Remove unused code instead of commenting it out. See
-      [examples](../t-sql-coding-standard/code-comments.md).
+      [examples](../t-sql-coding-standard/follow-our-code-layout-rules.md#code-comments).
 
 - Add comments to code commits, following the Conventional Commits
       specification.

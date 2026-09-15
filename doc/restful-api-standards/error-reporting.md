@@ -11,8 +11,8 @@ applicable, the JSON API specification.
 
 When returning error information, the server **MUST NOT** include
 unnecessary or sensitive data that attackers could exploit. See also the
-[OWASP 10](owasp-top-10.md) & [Minimise Information
-Disclosure](security-headers.md) sections.
+[OWASP 10](api-security.md#owasp-top-10) & [Minimise Information
+Disclosure](api-security.md#minimise-information-disclosure) sections.
 
 The server **MUST** use [HTTP status codes](http-implementation.md)
 in the 5xx range to indicate server errors. For client errors, the
