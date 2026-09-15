@@ -5,7 +5,7 @@ description = "DHCW Software Engineering Handbook"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "zensical>=0.0.7",
+    "zensical>=0.0.62",
 ]
 
 [tool.uv]
