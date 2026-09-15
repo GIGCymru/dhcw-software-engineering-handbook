@@ -1,12 +1,10 @@
 # Exceptions and good practice checklist
 
-## Exceptions prove the rule
+## Exceptions
 
-As with most standards, there are occasions when it's unwise to follow
-"hard and fast" rules.
-
-Principal and Lead software developers have discretion to do so but this
-should be the exception rather than the rule.
+[Exceptions prove the rule](../index.md#exceptions-prove-the-rule) — Principal and Lead
+software developers have discretion to deviate from this checklist, but
+this should be the exception rather than the rule.
 
 ## Good practice checklists
 

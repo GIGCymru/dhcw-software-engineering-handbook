@@ -33,36 +33,20 @@ Mental Health directorates have a responsibility to follow this guide.
 
 1. Digital Service Standard for Wales
 2. Welsh Technical Standards Board Statement of Principles
-3. [How to request and manage software subscriptions](../software-subscriptions/introduction.md)
-4. [Using Source Control](../using-source-control/introduction.md)
-5. [T-SQL Coding Standard](../t-sql-coding-standard/introduction.md)
-6. [RESTful API Design and Build Standards](../restful-api-standards/introduction.md)
-7. [How to Organise Your Software Solution](../organising-your-solution/introduction.md)
-8. [General Coding Standards](../general-coding-standards/introduction.md)
-9. [Azure DevOps handbook](../azure-devops-handbook/introduction.md)
-10. Informatics Systems in Wales, National Assembly for Wales, Public Accounts Committee
-11. SOP-OSD-004 - Web Applications
-12. SOP-OSD-005 - Encryption in Transit
-13. SOP-OSD-006 - Application Programming Interfaces
+3. [Using Source Control](../using-source-control/introduction.md)
+4. [How to Organise Your Software Solution](../organising-your-solution/introduction.md)
+5. [General Coding Standards](../general-coding-standards/introduction.md)
+6. Informatics Systems in Wales, National Assembly for Wales, Public Accounts Committee
+7. SOP-OSD-004 - Web Applications
+8. SOP-OSD-005 - Encryption in Transit
+9. SOP-OSD-006 - Application Programming Interfaces
+
+See [how this handbook is organised](../index.md#how-this-handbook-is-organised) for the full list of sections.
 
 ## Conventions
 
-The key words **MUST**, **MUST NOT**, **REQUIRED**,
-**SHALL**, **SHALL NOT**, **SHOULD**, **SHOULD NOT**,
-**RECOMMENDED**, **MAY**, and **OPTIONAL** in this document are to be
-interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
-
-!!! tip "Practical tips"
-    Practical tips
-
-!!! example "Examples of good practice"
-    Examples of good practice...
-
-!!! warning "Practices to avoid"
-    ...and practices to avoid
-
-!!! info "Further reading and information"
-    Links to further guides, information and work instructions. If a link is missing, search for the document in the Document Management System.
+This section follows the [handbook-wide conventions](../index.md#conventions)
+for RFC 2119 key words and callout boxes.
 
 ## The need for guidance
 

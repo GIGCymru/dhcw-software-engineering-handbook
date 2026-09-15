@@ -56,34 +56,16 @@ And for in-depth training use:
 
 1. [Software development handbook](../software-development-handbook/introduction.md)
 
-2. [How to request and manage software subscriptions](../software-subscriptions/introduction.md)  
+2. [Using Source Control](../using-source-control/introduction.md)
 
-3. [Using Source Control](../using-source-control/introduction.md)
+3. [How to Organise Your Software Solution](../organising-your-solution/introduction.md)
 
-4. [RESTful API Design and Build Standards](../restful-api-standards/introduction.md)
-
-5. [How to Organise Your Software Solution](../organising-your-solution/introduction.md)
-
-6. [General Coding Standards](../general-coding-standards/introduction.md)
+See [how this handbook is organised](../index.md#how-this-handbook-is-organised) for the full list of sections.
 
 ## Conventions
 
-The key words **MUST**, **MUST NOT**, **REQUIRED**,
-**SHALL**, **SHALL NOT**, **SHOULD**, **SHOULD NOT**,
-**RECOMMENDED**, **MAY**, and **OPTIONAL** in this document are to be
-interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
-
-!!! tip "Practical tips"
-    Practical tips
-
-!!! example "Examples of good practice"
-    Examples of good practice...
-
-!!! warning "Practices to avoid"
-    ...and practices to avoid
-
-!!! info "Further reading and information"
-    Links to further guides, information and work instructions. If a hyperlink is missing, search for the document in our Document Management System.
+This section follows the [handbook-wide conventions](../index.md#conventions)
+for RFC 2119 key words and callout boxes.
 
 ## The need for guidance
 
