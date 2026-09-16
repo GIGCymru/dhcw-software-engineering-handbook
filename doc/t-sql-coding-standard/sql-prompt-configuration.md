@@ -96,7 +96,7 @@ Commas before: -
 - make it easier to comment out additional fields during development.
 
 Indentation aids readability. However, long expressions may appear
-distorted when wrapped. See the section [Exceptions prove the
-rule](../index.md#exceptions-prove-the-rule).
+distorted when wrapped. See the section [Exceptions to these
+standards](../index.md#exceptions-to-these-standards).
 
 [^1]: E.g. `D:\\Users\\NatTD_ge080206\\*AppData\\Local\\Red Gate\\SQL Prompt 9\\StylesV2*`

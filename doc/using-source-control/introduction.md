@@ -19,7 +19,7 @@ development handbook.
 
 - Strategies for branching and merging.
 
-- [Good practice checklist](../restful-api-standards/essential-good-practice-checklist.md).
+- [Good practice checklist](essential-good-practice-checklist.md).
 
 ### Out-of-scope
 

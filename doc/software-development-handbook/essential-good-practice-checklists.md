@@ -4,6 +4,11 @@ Use these checklists to help follow our Principles & Standards. We
 cross-reference each item to a relevant section in our standards or
 guides. Exceptions are noted where they may apply.
 
+!!! info "Further reading and information"
+    [Digital Service Standard for Wales \| Centre for Digital Public Services](https://digitalpublicservices.gov.wales/guidance-and-standards/digital-service-standard-wales)
+
+    [Welsh Technical Standards Board \| A statement of principles](https://standards.cymru/posts/2018-12-01-wtsb/)
+
 ## Requirements gathering, analysis and specifications
 
 | **Item** |  |  | **Guide or standard** | **Exceptions** |

@@ -1,11 +1,4 @@
-# Exceptions and good practice checklist
-
-## Exceptions
-
-While there may be reasons to deviate from this guide, exceptions should
-be rare and carefully considered.
-
-## Essential good practice checklist
+# Essential good practice checklist
 
 | **No.** | **Checklist Item** |  | **Guide or Standard** | **Exceptions** |
 | --- | --- | --- | --- | --- |

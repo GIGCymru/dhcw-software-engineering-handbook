@@ -1,19 +1,11 @@
-# Exceptions and good practice checklists
-
-## Exceptions
-
-[Exceptions prove the rule](../index.md#exceptions-prove-the-rule) — Principal and Lead
-software developers have discretion to deviate from this checklist, but
-this should be the exception rather than the rule.
-
-## Good practice checklists
+# Good practice checklists
 
 Use this checklist to demonstrate you follow our coding standards.
 
 We cross-reference each checklist item to a relevant section in our
 standards and guides; Exceptions are noted where they may apply.
 
-### 9.1 general good practice
+## 9.1 general good practice
 
 | **Item** |  |  | **Guide or standard** | **Exceptions** |
 | --- | --- | --- | --- | --- |

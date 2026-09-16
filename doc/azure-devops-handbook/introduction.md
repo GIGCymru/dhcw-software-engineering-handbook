@@ -36,7 +36,7 @@ And for in-depth training use:
 
 - Recommended conventions and naming standards.
 
-- [Good practice](../restful-api-standards/essential-good-practice-checklist.md) checklist.
+- [Good practice](essential-good-practice-checklist.md) checklist.
 
 ### Out-of-scope
 

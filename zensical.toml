@@ -20,7 +20,6 @@ nav = [
     {"Security" = "software-development-handbook/security.md"},
     {"User interface and accessibility standards" = "software-development-handbook/user-interface-and-accessibility-standards.md"},
     {"Documentation" = "software-development-handbook/documentation.md"},
-    {"Exceptions" = "software-development-handbook/exceptions.md"},
     {"Essential good practice checklists" = "software-development-handbook/essential-good-practice-checklists.md"},
   ]},
   {"Using Source Control" = [
@@ -39,14 +38,14 @@ nav = [
     {"Keep your repo organised" = "using-source-control/keep-your-repo-organised.md"},
     {"Always deploy from source control" = "using-source-control/always-deploy-from-source-control.md"},
     {"Select and configure Git clients" = "using-source-control/select-and-configure-git-clients.md"},
-    {"Exceptions and good practice checklist" = "using-source-control/exceptions-and-good-practice-checklist.md"},
+    {"Essential good practice checklist" = "using-source-control/essential-good-practice-checklist.md"},
   ]},
   {"Organising Your Solution" = [
     {"Introduction" = "organising-your-solution/introduction.md"},
     {"Organise your solution to accord with our conventions" = "organising-your-solution/organise-your-solution-to-accord-with-our-conventions.md"},
     {"Follow our folder and file conventions" = "organising-your-solution/follow-our-folder-and-file-conventions.md"},
     {"Recommended solution sub-folders" = "organising-your-solution/recommended-solution-sub-folders.md"},
-    {"Exceptions and good practice checklist" = "organising-your-solution/exceptions-and-good-practice-checklist.md"},
+    {"Good practice checklist" = "organising-your-solution/good-practice-checklist.md"},
   ]},
   {"General Coding Standards" = [
     {"Introduction" = "general-coding-standards/introduction.md"},
@@ -55,7 +54,7 @@ nav = [
     {"Follow Microsoft's coding conventions" = "general-coding-standards/follow-microsofts-coding-conventions.md"},
     {"Analyse your code" = "general-coding-standards/analyse-your-code.md"},
     {"Examples" = "general-coding-standards/examples.md"},
-    {"Exceptions and good practice checklist" = "general-coding-standards/exceptions-and-good-practice-checklist.md"},
+    {"Essential good practice checklist" = "general-coding-standards/essential-good-practice-checklist.md"},
   ]},
   {"T-SQL Coding Standard" = [
     {"Introduction" = "t-sql-coding-standard/introduction.md"},
@@ -71,7 +70,7 @@ nav = [
     {"Follow our code layout rules" = "t-sql-coding-standard/follow-our-code-layout-rules.md"},
     {"Examples" = "t-sql-coding-standard/examples.md"},
     {"SQL prompt configuration" = "t-sql-coding-standard/sql-prompt-configuration.md"},
-    {"Exceptions and good practice checklists" = "t-sql-coding-standard/exceptions-and-good-practice-checklists.md"},
+    {"Good practice checklists" = "t-sql-coding-standard/good-practice-checklists.md"},
   ]},
   {"RESTful API Standards" = [
     {"Introduction" = "restful-api-standards/introduction.md"},

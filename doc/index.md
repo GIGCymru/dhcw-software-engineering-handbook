@@ -51,13 +51,14 @@ This handbook uses four consistent callout boxes:
 !!! info "Further reading and information"
     Links to further guides, information and work instructions. If a hyperlink is missing, search for the document in our Document Management System.
 
-### Exceptions prove the rule
+### Exceptions to these standards
 
-As with most standards, there are occasions when it's unwise to follow
-"hard and fast" rules.
+We expect you to follow these standards. Where there's a valid reason to
+deviate, the decision should be taken at the appropriate level and
+documented in a decision record.
 
-Principal and Lead software developers have discretion to do so but this
-should be the exception rather than the rule.
+For significant technical or architectural decisions, follow the
+relevant DHCW governance and guidance.
 
 ## Contributing
 
