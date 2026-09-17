@@ -65,25 +65,7 @@ The Software Development Manager has a responsibility to :-
 | N/A | [RFC 2119: RFC Keywords (ietf.org)](https://www.ietf.org/rfc/rfc2119.txt) |
 | DHCW-POL-2 | IT Asset Management Policy |
 
-## How this guide is organised
+## Conventions
 
-### Conventions
-
-The key words **MUST**, **MUST NOT**, **REQUIRED**,
-**SHALL**, **SHALL NOT**, **SHOULD**, **SHOULD NOT**,
-**RECOMMENDED**, **MAY**, and **OPTIONAL** in this document are to be
-interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
-
-!!! tip "Practical tips"
-    Practical tips
-
-!!! example "Examples of good practice"
-    Examples of good practice...
-
-!!! warning "Practices to avoid"
-    ...and practices to avoid
-
-!!! info "Further reading and information"
-    Links to further guides, information and work instructions.
-
-    If a hyperlink is missing, search for the document in the Document Management System.
+This section follows the [handbook-wide conventions](../index.md#conventions)
+for RFC 2119 key words and callout boxes.

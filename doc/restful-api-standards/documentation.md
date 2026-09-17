@@ -221,8 +221,3 @@ thoroughly to ensure reliability.
 
 !!! tip "Practical tips"
     Understand your users' needs. A .NET client might not be useful to a Java developer!
-
-## Exceptions
-
-Standards provide valuable guidance, but there may be rare exceptions.
-Principal and Lead Software Developers have discretion in such cases.

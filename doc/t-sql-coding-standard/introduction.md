@@ -18,19 +18,8 @@ Software Developers have a responsibility to follow this guide.
 
 ## Conventions
 
-The key words **MUST**, **MUST NOT**, **REQUIRED**,
-**SHALL**, **SHALL NOT**, **SHOULD**, **SHOULD NOT**,
-**RECOMMENDED**, **MAY**, and **OPTIONAL** in this document are to be
-interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
-
-!!! tip "Practical tips"
-    Practical tips
-
-!!! example "Examples of good practice"
-    Examples of good practice...
-
-!!! warning "Practices to avoid"
-    ...and practices to avoid
+This section follows the [handbook-wide conventions](../index.md#conventions)
+for RFC 2119 key words and callout boxes.
 
 !!! example "Redgate SQL Prompt"
     Indicates that this rule can be implemented using Redgate SQL Prompt

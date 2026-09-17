@@ -62,7 +62,7 @@ You **SHOULD NOT**:-
 [^1]: But beware of situations where this is counterproductive. For
     example, having many procedures prefixed with 'Get' makes any
     specific stored procedure difficult to spot. See the section
-    '[Exceptions prove the rule'](exceptions-and-good-practice-checklists.md#exceptions-prove-the-rule).
+    '[Exceptions to these standards'](../index.md#exceptions-to-these-standards).
 
 [^2]: This rule raised the concern that we could end up with differing
     coding standards based on language and technology and we will.

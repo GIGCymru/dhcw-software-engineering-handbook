@@ -1,21 +1,11 @@
-# Exceptions and good practice checklists
-
-## Exceptions prove the rule
-
-As with most standards, there are occasions when it's unwise to follow
-"hard and fast" rules.
-
-Principal and Lead software developers have discretion to do so but this
-should be the exception rather than the rule.
-
-## Good practice checklists
+# Essential good practice checklists
 
 Use this checklist to demonstrate you follow our coding standards.
 
 We cross-reference each checklist item to a relevant section in our
 standards and guides; Exceptions are noted where they may apply.
 
-### 9.1 general good practice
+## 9.1 general good practice
 
 | **Item** |  |  | **Guide or standard** | **Exceptions** |
 | --- | --- | --- | --- | --- |

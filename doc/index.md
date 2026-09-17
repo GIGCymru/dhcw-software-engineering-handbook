@@ -11,10 +11,55 @@ A handbook brings together all the important know-how: how to write clear, secur
 
 It's there to help you make good decisions, avoid mistakes, and deliver software that others can trust and build on.
 
+## How this handbook is organised
+
+The handbook is split into the following sections:
+
+- [Software Development Handbook](software-development-handbook/introduction.md) — how to manage software development projects for DHCW.
+- [Using Source Control](using-source-control/introduction.md) — good practice for using source control and conducting code reviews.
+- [Organising Your Solution](organising-your-solution/introduction.md) — how to structure the folders and files of a software solution.
+- [General Coding Standards](general-coding-standards/introduction.md) — general coding standards for software development.
+- [T-SQL Coding Standard](t-sql-coding-standard/introduction.md) — the coding standard for writing T-SQL.
+- [RESTful API Standards](restful-api-standards/introduction.md) — requirements and guidance for designing and building RESTful APIs.
+- [Azure DevOps Handbook](azure-devops-handbook/introduction.md) — how to use Azure DevOps to manage software projects.
+- [Software Subscriptions](software-subscriptions/introduction.md) — how to identify, request and manage software subscriptions.
+- [Test Summary Report](test-summary-report/introduction.md) — how to write a Test Summary Report.
+- [Testing for Lost Updates](testing-lost-updates/introduction.md) — how to test for lost updates and other database concurrency bugs.
+
+There's also a [Coding Standard Template](coding-standard-template/coding-standard-template.md) to use as a starting point when authoring a new coding standard.
+
+## Conventions
+
+This section explains the conventions used throughout the handbook.
+
 !!! rfc-terms "Terminology and Requirements"
     To be clear about what’s expected, we use specific words with defined meanings.
 
     The key words **"MUST"**, **"MUST NOT"**, **"REQUIRED"**, **"SHALL"**, **"SHALL NOT"**, **"SHOULD"**, **"SHOULD NOT"**, **"RECOMMENDED"**, **"MAY"**, and **"OPTIONAL"** in this handbook are to be interpreted as described in [RFC 2119](https://www.rfc-editor.org/rfc/rfc2119).
+
+This handbook uses four consistent callout boxes:
+
+!!! tip "Practical tips"
+    Practical advice and recommendations.
+
+!!! example "Examples of good practice"
+    Worked examples showing the standard applied correctly.
+
+!!! warning "Practices to avoid"
+    Practices that don't meet the standard.
+
+!!! info "Further reading and information"
+    Links to further guides, information and work instructions. If a hyperlink is missing, search for the document in our Document Management System.
+
+### Exceptions to these standards
+
+We expect you to follow these standards. Where there's a valid reason to
+deviate, the decision should be taken at the appropriate level and
+documented in a decision record, stored as described in
+[Store ADRs in a decision records folder](organising-your-solution/recommended-solution-sub-folders.md#store-adrs-in-a-decision-records-folder).
+
+For significant technical or architectural decisions, follow the
+relevant DHCW governance and guidance.
 
 ## Contributing
 

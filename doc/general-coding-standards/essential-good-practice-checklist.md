@@ -1,9 +1,4 @@
-# Exceptions and good practice checklist
-
-## Exceptions
-
-While there may be reasons to deviate from this guide, exceptions should
-be rare and carefully considered.
+# Essential good practice checklist
 
 !!! tip "Practical tips"
     Discuss with colleagues and hold code reviews to ensure a shared understanding of our standards.
@@ -16,8 +11,6 @@ be rare and carefully considered.
     [Seven ineffective coding habits of many programmers - Kevlin Henney - YouTu be](https://www.youtube.com/watch?v=oyyFKHpzL0Q)
 
     [Uses and misuses of implicit typing \| Microsoft Learn](https://learn.microsoft.com/en-gb/archive/blogs/ericlippert/uses-and-misuses-of-implicit-typing)
-
-## Essential good practice checklist
 
 | **Item** |  |  | **Guide or standard** | **Exceptions** |
 | --- | --- | --- | --- | --- |
