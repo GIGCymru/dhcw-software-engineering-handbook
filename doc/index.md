@@ -55,7 +55,8 @@ This handbook uses four consistent callout boxes:
 
 We expect you to follow these standards. Where there's a valid reason to
 deviate, the decision should be taken at the appropriate level and
-documented in a decision record.
+documented in a decision record, stored as described in
+[Store ADRs in a decision records folder](organising-your-solution/recommended-solution-sub-folders.md#store-adrs-in-a-decision-records-folder).
 
 For significant technical or architectural decisions, follow the
 relevant DHCW governance and guidance.
