@@ -45,7 +45,7 @@ nav = [
     {"Organise your solution to accord with our conventions" = "organising-your-solution/organise-your-solution-to-accord-with-our-conventions.md"},
     {"Follow our folder and file conventions" = "organising-your-solution/follow-our-folder-and-file-conventions.md"},
     {"Recommended solution sub-folders" = "organising-your-solution/recommended-solution-sub-folders.md"},
-    {"Good practice checklist" = "organising-your-solution/good-practice-checklist.md"},
+    {"Essential good practice checklist" = "organising-your-solution/essential-good-practice-checklist.md"},
   ]},
   {"General Coding Standards" = [
     {"Introduction" = "general-coding-standards/introduction.md"},
@@ -70,7 +70,7 @@ nav = [
     {"Follow our code layout rules" = "t-sql-coding-standard/follow-our-code-layout-rules.md"},
     {"Examples" = "t-sql-coding-standard/examples.md"},
     {"SQL prompt configuration" = "t-sql-coding-standard/sql-prompt-configuration.md"},
-    {"Good practice checklists" = "t-sql-coding-standard/good-practice-checklists.md"},
+    {"Essential good practice checklists" = "t-sql-coding-standard/essential-good-practice-checklists.md"},
   ]},
   {"RESTful API Standards" = [
     {"Introduction" = "restful-api-standards/introduction.md"},

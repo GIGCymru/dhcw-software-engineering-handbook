@@ -49,7 +49,7 @@ for RFC 2119 key words and callout boxes.
 !!! info "Further reading and information"
     *<ADD LINKS TO FURTHER INFORMATION AS **REQUIRED**. IF ADDING LINKS TO MICROSOFT DOCS, BE MINDFUL TO USE THE GB VERSION WHERE POSSIBLE.\>*
 
-## Good practice checklists
+## Essential good practice checklists
 
 *<ADD TEXT AS NECESSARY\>*
 

@@ -1,4 +1,4 @@
-# Good practice checklists
+# Essential good practice checklists
 
 Use this checklist to demonstrate you follow our coding standards.
 
