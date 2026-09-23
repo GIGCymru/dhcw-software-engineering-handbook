@@ -2,7 +2,7 @@
 
 [![zensical](https://github.com/GIGCymru/dhcw-software-engineering-handbook/actions/workflows/publish.yml/badge.svg)](https://github.com/GIGCymru/dhcw-software-engineering-handbook/actions/workflows/publish.yml)
 
-The documents in this repository are published to [https://gigcymru.github.io/dhcw-software-engineering-handbook/"](https://gigcymru.github.io/dhcw-software-engineering-handbook/").
+The documents in this repository are published to [https://gigcymru.github.io/dhcw-software-engineering-handbook/](https://gigcymru.github.io/dhcw-software-engineering-handbook/).
 
 ## Introduction
 
