@@ -69,8 +69,8 @@ dhcw-software-engineering-handbook/
 │   ├── index.md                  # Homepage
 │   ├── <subfolders>/             # Major handbook sections under subfolders
 │   ├── assets/                   # Images, logos, favicons
-│   ├── overrides/                # Theme customizations
 │   └── stylesheets/              # Custom CSS
+├── overrides/                    # Theme customizations (kept outside doc/)
 ├── .github/                      # GitHub Actions workflows
 ├── .devcontainer.json            # Devcontainer configuration
 ├── .markdownlint-cli2.jsonc      # Markdown Linting rules configuration
@@ -102,7 +102,7 @@ Read file(s) → Make edits → Update navigation (if needed) → Test → Commi
 
 ### Documentation Updates
 
-**All documentation lives in `/doc` directory as markdown files.**
+**All documentation lives in `/doc` directory as markdown files.** Theme template overrides live in the top-level `overrides/` directory, not under `doc/`.
 
 **Before editing:**
 

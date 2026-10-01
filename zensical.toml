@@ -5,7 +5,7 @@ site_url = "https://gigcymru.github.io/dhcw-software-engineering-handbook/"
 repo_url = "https://github.com/GIGCymru/dhcw-software-engineering-handbook/"
 docs_dir = "doc"
 edit_uri = "edit/main/doc/"
-copyright = "Copyright &copy; 2025 GIG Cymru - NHS Wales – <a href=\"#__consent\">Change cookie settings</a>"
+copyright = "Copyright &copy; 2025 GIG Cymru - NHS Wales – <a href=\"#__consent\">Change analytics settings</a>"
 extra_css = ["stylesheets/extra.css"]
 
 # Navigation structure
@@ -172,7 +172,7 @@ custom_fences = [
 # Theme configuration
 [project.theme]
 variant = "modern"
-custom_dir = "doc/overrides"
+custom_dir = "overrides"
 logo = "assets/logo.png"
 favicon = "assets/favicon.ico"
 
@@ -204,20 +204,18 @@ repo = "fontawesome/brands/github"
 [project.theme.font]
 text = "Rubik"
 
-# Cookie consent configuration
+# Analytics preferences
 [project.extra.consent]
-title = "Cookie consent"
+title = "Analytics"
 description = """
-We use cookies to optimise site functionality and give you the best
-possible experience, recognise your repeated visits and preferences, as
-well as to measure the effectiveness of our site and whether
-users find what they're searching for. With your consent, you're helping
-us to make our site better.
+We use Simple Analytics, a privacy-first service that does not use
+cookies or collect personal data, to understand how this handbook
+is used and to improve it. It is on by default. You can opt out below.
 """
 
 # Cookie consent cookies - using dict format to avoid 'list' error
 [project.extra.consent.cookies]
-analytics = {name = "Simple Analytics", checked = true}
+analytics = {name = "Simple Analytics (cookieless)", checked = true}
 
 # Analytics configuration
 [project.extra.analytics]

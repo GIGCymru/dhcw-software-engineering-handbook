@@ -101,8 +101,8 @@ dhcw-software-engineering-handbook/
 │   ├── index.md                  # Homepage
 │   ├── <section-folders>/        # Major handbook sections
 │   ├── assets/                   # Images, logos, favicons
-│   ├── overrides/                # Theme customizations
 │   └── stylesheets/              # Custom CSS
+├── overrides/                    # Theme customizations (kept outside doc/)
 ├── .github/                      # GitHub Actions workflows
 │   ├── workflows/                # CI/CD workflows
 │   └── copilot-instructions.md   # This file
