@@ -152,6 +152,16 @@ View the documentation at: ``http://127.0.0.1:8000/``
 
 Our documentation is built using [Zensical](https://zensical.org/), a modern static site generator built by the creators of Material for MkDocs.
 
+## Analytics
+
+The site uses [Simple Analytics](https://www.simpleanalytics.com/), a cookieless analytics service.
+Analytics is on by default. Visitors can opt out through the banner's **Manage settings** control or the
+**Change analytics settings** footer link. Preferences are saved in browser local storage.
+
+The banner text is configured in [zensical.toml](zensical.toml). The loader is in
+[overrides/partials/integrations/analytics/simple.html](overrides/partials/integrations/analytics/simple.html).
+Theme overrides live in the top-level `overrides/` directory, outside the published documentation source.
+
 ## Contributing
 
 We welcome suggestions and improvements from DHCW colleagues, partners and the wider community.
