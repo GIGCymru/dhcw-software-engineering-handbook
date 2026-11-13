@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "cspell-cli": "^9.6.0",
-    "markdownlint-cli2": "^0.23.3"
+    "markdownlint-cli2": "^0.24.1"
   },
   "overrides": {
     "cspell-glob@^9.0.0": {
